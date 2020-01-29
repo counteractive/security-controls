@@ -1,0 +1,7 @@
+archive/
+ref/
+work/
+
+# office doc artifacts
+
+~$*.*

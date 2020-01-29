@@ -1,0 +1,21 @@
+# NOTICE
+
+## CIS Controls
+
+Items marked "cis_csc_v7.1" are drawn from the Center for Internet Security (CIS) Controls, version 7.1, Copyright Center for Internet Security, retrieved from https://learn.cisecurity.org/cis-controls-download.  They are used in accordance with the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License available at https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.
+
+No modifications have been made to licensed material except for changing its format (PDF to plain text), which is permissible under the license (https://creativecommons.org/faq/#when-i-release-my-work-under-a-cc-license-in-one-format-e.g.-.pdf-can-i-restrict-licensees-from-changing-it-to-or-using-it-in-other-formats).
+
+## NIST Publications
+
+Items marked "nist_" are drawn from publications of the National Institute of Standards and Technology (NIST), and as publications of the Federal government are in the public domain and not subject to copyright in the United States.
+
+See https://www.nist.gov/nist-research-library/library-faqs for more information.
+
+## OWASP ASVS
+
+Items marked "asvs_" are drawn from the OWASP Application Security Verification Standard 4.0, March 2019, Copyright 2008-2019 The OWASP Foundation, retrieved from https://owasp.org/www-project-application-security-verification-standard/. They are used in accordance with the Creative Commons Attribution ShareAlike 3.0 license available at https://creativecommons.org/licenses/by-sa/3.0/legalcode.
+
+## OWASP Top 10 Proactive Controls
+
+Items marked "owasp_10_" are drawn from the OWASP Top 10 Proactive Controls, Copyright 2020 OWASP Foundation, Inc., retrieved from https://owasp.org/www-project-proactive-controls/.  They are used in accordance with the Creative Commons Attribution-ShareAlike 4.0 International Public License available at https://creativecommons.org/licenses/by-sa/4.0/legalcode.

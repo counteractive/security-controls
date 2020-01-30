@@ -86,6 +86,7 @@ TODO
 * Items deeper than tier-2 are wrapped into their nearest tier 2 ancestor (_e.g._, `800_53_v4` tier-3 items `AC-2h.1.`, `AC-2h.2.`, `AC-2h.3.` are included in tier-2 item `AC-2h.`).
 * "Withdrawn" controls in `800_53_v4` do not appear in the consolidated data.
 * Leading and trailing spaces were removed in consolidated data.
+* Because of disclaimers in the source material, there's often not much more than an associative match (`skos:relatedMatch`) that we can pull from the text itself.  Take the following from the NIST CSF: "Mappings between the Framework Core Subcategories and the specified sections in the Informative References are not intended to definitively determine whether the specified sections in the Informative References provide the desired Subcategory outcome."  That is, you could do all those things and still not have what we're looking for.  Or maybe you would.  Good luck.
 * **DISCLAIMER:** Much of the initial consolidation was done by hand with the assistance of good old Excel.  There are likely transcription errors.  Please create an issue or pull request if you identify a problem.
 
 ## Use Cases
@@ -93,6 +94,9 @@ TODO
 The data and tools in this project can support:
 
 1. Efficiency and cost savings by avoiding duplication of effort across multiple departments (_e.g._, security operations and product development)
+1. Prioritizing controls based on cross-framework coverage (pareto principal).  For example:
+    1. NIST 800-53 has 256 distinct tier-1 controls (the lowest level that maps directly to the NIST CSF, useful because they get more detailed than the sub-categories).  Of those, the NIST CSF only references 212, leaving 44 that maybe don't move the needle if NIST CSF is your governance model of choice.
+    1. It's a long-tail distribution too: the top four related controls (`nist_800_53_v4:cp-2`, `nist_800_53_v4:ir-4`, `nist_800_53_v4:ca-7`, `nist_800_53_v4:si-4`, and `nist_800_53_v4:ir-8`) show up 91 times out of 508 total mappings - effort on just four controls helps advance over 20% of the "Informative References" across the entire NIST CSF.  On the other end, implementing the **107** controls that show up just once gets you similar coverage.
 1. Transitions from one regime to another (_e.g._, due to an acquisition or initiative)
 1. Integrating controls information into task tracking, ticketing, planning, and [GRC](https://en.wikipedia.org/wiki/Governance,_risk_management,_and_compliance) tools (e.g., Archer, SAP, github/gitlab, JIRA, Zendesk)
 1. Integrating controls information into operations tools like log aggregators, SIEMs, visualization tools, and orchestration platforms (_e.g._, Elastic Stack, Splunk, Demisto, Phantom)
@@ -106,7 +110,7 @@ The data and tools in this project can support:
 
 * **Why do you mix application security and organizational/corporate information security frameworks?** Our master list strives to include all reputable information security controls, across a wide variety of domains.  We support the use of [labels](#labels) to add metadata to controls, and if that distinction is important to your team, we encourage you to capture it within the mode.  More broadly: different organizations assign security responsibilities differently, and for many firms their applications _are_ their entire organization.  There's often no meaningful distinction in the world of small business, DevSecOps, or integrated IT/security teams - the same people are responsible for most of it!
 
-* **How did you choose the relationships (mappings)?** We created initial mappings based on the source documents themselves (_i.e._, they say X maps to Y), as well as a good-faith effort to apply the principles in ISO 25964-2, "Information and documentation — Thesauri and interoperability with other vocabularies - Part 2: Interoperability with other vocabularies."  In so many cases it's a matter of judgment and usability - if you think X should be mapped to Y, please open an issue or pull request and we can discuss it!  Because relationships have metadata, you can also create and use your own without breaking anything.
+* **How did you choose the relationships (mappings)?** We created initial mappings based on the source documents themselves (_i.e._, they say X maps to Y), as well as a good-faith effort to apply the relationships ("mappings") in the [Simple Knowledge Organization System (SKOS)](https://www.w3.org/TR/2009/REC-skos-reference-20090818/), as noted above. In so many cases it's a matter of judgment and usability - if you think X should be mapped to Y, please open an issue or pull request and we can discuss it!  Because relationships have metadata, you can also create and use your own without breaking anything.
 
 * **Why isn't this in a database?** Text files are universal and CSV and JSON cover a lot of use-cases, both technical and non-technical.  If you want a database-like experience, you can import them into your DB of choice, or use a [tool like `q`](http://harelba.github.io/q/) which lets you run SQL queries on text files:
 
@@ -129,7 +133,7 @@ The data and tools in this project can support:
 * [x] Publish clean, consistent controls framework data
 * [x] Determine mapping approach using SKOS, ISO 25964-2 and source documents
 * [x] Capture hierarchical mappings for NIST CSF
-* [ ] Capture associative mappings for NIST CSF to 800-53 (from CSF source xml)
+* [x] Capture associative mappings for NIST CSF to 800-53 (from CSF source xml)
 * [ ] Capture associative mappings for NIST CSF to CIS CSC (from NIST CSF source)
 * [ ] Capture hierarchical mappings for 800-53
 * [ ] Capture hierarchical mappings for CIS CSC

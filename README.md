@@ -46,6 +46,7 @@ Field | Description | Example
 `id` | globally unique (namespaced) identifier created by combining `source` with lowercase, no-spaces `id_raw` | `nist_csf_v1.1:rs.mi`
 `tier_raw` | tier (group) for the item drawn from the source (may not be globally unique or consistent), in its original format | `Category`
 `tier` | 0-based level in the hierarchy of the original framework (_i.e._, the number of ancestors for this item) | `1`
+`seq` | strictly increasing sequence number capturing the order of controls within a tier of a framework (optional), drawn from the source | `3`
 `title` | short description of the item (optional), in its original format | `Mitigation`
 `description` | long description of the item (optional), in its original format | `Activities are performed ...`
 
@@ -149,6 +150,7 @@ The data and tools in this project can support:
 * [x] Capture hierarchical mappings for CIS CSC (excluding implementation groups)
 * [x] Capture implementation groups for CIS CSC
 * [ ] POC for visualization capabilities
+* [x] Add an optional sequence number for controls at a tier (within a framework) for in-source ordering
 * [ ] Capture associative mappings for CIS CSC to NIST CSF (from CIS CSC source)
 * [ ] Capture hierarchical mappings for 800-53
 * [ ] Capture hierarchical mappings for ASVS

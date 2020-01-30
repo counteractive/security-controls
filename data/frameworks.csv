@@ -1,4 +1,4 @@
-id,abbreviation,framework,url,version
+id,abbreviation,title,url,version
 nist_csf_v1.1,NIST CSF,National Institute for Standards and Technology (NIST) Framework for Improving Critical Infrastructure Cybersecurity,https://www.nist.gov/cyberframework,1.1
 cis_csc_7.1,CIS CSC,Center for Internet Security (CIS) Controls,http://www.cisecurity.org/controls,7.1
 800_53_v4,NIST 800-53,NIST Security and Privacy Controls for Federal Information Systems and Organizations,https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final,4

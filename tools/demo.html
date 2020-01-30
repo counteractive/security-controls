@@ -14,31 +14,45 @@
   <div>
     <section class="section">
       <div class="container">
-        <h1 class="title">
-          Demo App Stub
-        </h1>
+        <h1 class="title">Security Controls Demonstration</h1>
+        <div id="trees"></div>
       </div>
     </section>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js" integrity="sha256-VeNaFBVDhoX3H+gJ37DpT/nTuZTdjYro9yBruHjVmoQ=" crossorigin="anonymous"></script>
+  <script crossorigin src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="></script>
+  <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js" integrity="sha256-VeNaFBVDhoX3H+gJ37DpT/nTuZTdjYro9yBruHjVmoQ="></script>
+  <!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> -->
 
   <script>
+    let frameworks = []
     let controls = []
     let relationships = []
     $.when(
       $.ajax({
+        url: 'https://raw.githubusercontent.com/counteractive/security-controls/master/data/frameworks.json',
+        dataType: 'json',
+        success: data => { frameworks = data }
+      }),
+      $.ajax({
         url: 'https://raw.githubusercontent.com/counteractive/security-controls/master/data/controls.json',
-        dataType: 'json', success: data => { controls = data }
+        dataType: 'json',
+        success: data => { controls = data }
       }),
       $.ajax({
         url: 'https://raw.githubusercontent.com/counteractive/security-controls/master/data/relationships.json',
-        dataType: 'json', success: data => { relationships = data }
+        dataType: 'json',
+        success: data => { relationships = data }
       })
-    ).then(()=>{
-      console.log(controls)
-      console.log(relationships)
+    ).then(() => {
+      // console.log(frameworks)
+      // console.log(controls)
+      // console.log(relationships)
+      _.forEach(frameworks, v => {
+        $('#trees').append(`<h2>${v.title} (${v.abbreviation})</h2>`)
+        $('#trees').append(`<ul class="${v.id}"></ul>`)
+      })
     })
   </script>
 

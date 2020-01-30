@@ -97,6 +97,7 @@ The data and tools in this project can support:
 1. Prioritizing controls based on cross-framework coverage (pareto principal).  For example:
     1. NIST 800-53 has 256 distinct tier-1 controls (the lowest level that maps directly to the NIST CSF, useful because they get more detailed than the sub-categories).  Of those, the NIST CSF only references 212, leaving 44 that maybe don't move the needle if NIST CSF is your governance model of choice.
     1. It's a long-tail distribution too: the top four related controls (`nist_800_53_v4:cp-2`, `nist_800_53_v4:ir-4`, `nist_800_53_v4:ca-7`, `nist_800_53_v4:si-4`, and `nist_800_53_v4:ir-8`) show up 91 times out of 508 total mappings - effort on just four controls helps advance over 20% of the "Informative References" across the entire NIST CSF.  On the other end, implementing the **107** controls that show up just once gets you similar coverage.
+1. Choosing an initial framework for a new or re-built security program.
 1. Transitions from one regime to another (_e.g._, due to an acquisition or initiative)
 1. Integrating controls information into task tracking, ticketing, planning, and [GRC](https://en.wikipedia.org/wiki/Governance,_risk_management,_and_compliance) tools (e.g., Archer, SAP, github/gitlab, JIRA, Zendesk)
 1. Integrating controls information into operations tools like log aggregators, SIEMs, visualization tools, and orchestration platforms (_e.g._, Elastic Stack, Splunk, Demisto, Phantom)
@@ -136,7 +137,7 @@ The data and tools in this project can support:
 * [x] Capture associative mappings for NIST CSF to 800-53 (from CSF source xml)
 * [x] Capture associative mappings for NIST CSF to CIS CSC (from NIST CSF source)
 * [x] Capture hierarchical mappings for CIS CSC (excluding implementation groups)
-* [ ] Capture implementation groups for CIS CSC
+* [x] Capture implementation groups for CIS CSC
 * [ ] Capture hierarchical mappings for 800-53
 * [ ] Capture hierarchical mappings for ASVS
 * [ ] Capture associative mappings for CIS CSC to NIST CSF (from CIS CSC source)

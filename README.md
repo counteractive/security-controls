@@ -17,8 +17,9 @@ This project is designed to support a thoughtful risk management strategy where 
 
 > ```text
 > risk = impact x likelihood
-> risk = (functional_impact + information_impact) x (threat x vulnerability)
-> risk = ((functional_impact + information_impact) - (controls_mitigation)) x (threat x (vulnerability - controls_mitigation))
+> risk = (functional_impact + info_impact) x (threat x vulnerability)
+> risk =   (functional_impact + info_impact - controls_effect)
+>        x (threat x (vulnerability - controls_effect))
 > ```
 
 ## Controls (_a.k.a._, actions, requirements, outcomes)
@@ -28,11 +29,11 @@ This project is designed to support a thoughtful risk management strategy where 
 ID |Framework | URL | Version |  Notes
 -- | -- | -- | -- | --
 `nist_csf_v1.1` | National Institute for Standards and Technology (NIST) Framework for Improving Critical Infrastructure Cybersecurity | [NIST CSF](https://www.nist.gov/cyberframework) | 1.1 |
-`cis_csc_7.1` | Center for Internet Security (CIS) Controls | [CIS CSC](http://www.cisecurity.org/controls/) | 7.1 | _a.k.a._, CIS Critical Security Controls, Top 20
+`cis_csc_7.1` | Center for Internet Security (CIS) Controls | [CIS CSC](http://www.cisecurity.org/controls/) | 7.1 | _a.k.a._, Critical Security Controls, Top 20
 `800_53_v4` | NIST Security and Privacy Controls for Federal Information Systems and Organizations | [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final) | 4 |
 `800_171_v1` | Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations | [NIST 800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final) | 1 |
 `owasp_10_v3` | Open Web Application Security Project (OWASP) Top Ten Proactive Controls 2018 | [OWASP Top 10](https://owasp.org/www-project-proactive-controls/) | 3 | Distinct from [OWASP Top 10 Security Risks](https://owasp.org/www-project-top-ten/)
-`asvs_v4.0.1` | OWASP Application Security Verification Standard| [ASVS](https://owasp.org/www-project-application-security-verification-standard/) | 4.0.1 |
+`asvs_v4.0.1` | OWASP Application Security Verification Standard | [ASVS](https://owasp.org/www-project-application-security-verification-standard/) | 4.0.1 |
 
 ### Control Format
 
@@ -58,8 +59,8 @@ Type | SKOS Type | Properties | Notes
 -- | -- | -- | --
 Hierarchical | `skos:broadMatch`, `skos:narrowMatch` | transitive, each is the other's inverse | `dog skos:broadMatch mammal` ("is specific example of"), `mammal skos:narrowMatch dog` ("is generic category including").  **Only capture one level of ancestry** if possible, as the rest can be inferred through transitivity.
 Associative | `skos:relatedMatch` | non-transitive, symmetric (bidirectional) | generic, _non-hierarchical_ relationship
-Close equivalent | `skos:closeMatch` | non-transitive, symmetric (bidirectional) | "concepts ... sufficiently similar that they can be used interchangeably in _some [applications]_"
-Exact equivalent | `skos:exactMatch` | transitive, symmetric (bidirectional) |"two concepts ... that can be used interchangeably [in] a _wide range of [applications]_"
+Close equivalent | `skos:closeMatch` | non-transitive, symmetric (bidirectional) | "concepts ... sufficiently similar that they can be used interchangeably _in some [applications]_"
+Exact equivalent | `skos:exactMatch` | transitive, symmetric (bidirectional) |"two concepts ... that can be used interchangeably _[in many applications]_"
 
 ### Relationship Format
 
@@ -117,11 +118,20 @@ The data and tools in this project can support:
 
   ```bash
   $ q -H -d , "select id, title, description from ./controls.csv where id like '%csf%' and tier = 0"
-  # nist_csf_v1.1:de,Detect,Develop and implement appropriate activities ...
+  # nist_csf_v1.1:de,Detect,Develop and implement appropriate ...
   # nist_csf_v1.1:id,Identify,Develop an organizational understanding ...
   # nist_csf_v1.1:pr,Protect,Develop and implement appropriate ...
   # nist_csf_v1.1:rc,Recover,Develop and implement appropriate ...
   # nist_csf_v1.1:rs,Respond,Develop and implement appropriate ...
+  ```
+
+  The JSON formats make it straightforward to work with the data programmatically:
+
+  ```javascript
+  const _ = require('lodash')
+  const controls = require('./controls.json')
+  const relationships = require('./relationships.json')
+  // go to town ...
   ```
 
 ## References and Prior Art
@@ -138,20 +148,14 @@ The data and tools in this project can support:
 * [x] Capture associative mappings for NIST CSF to CIS CSC (from NIST CSF source)
 * [x] Capture hierarchical mappings for CIS CSC (excluding implementation groups)
 * [x] Capture implementation groups for CIS CSC
+* [ ] POC for visualization capabilities
+* [ ] Capture associative mappings for CIS CSC to NIST CSF (from CIS CSC source)
 * [ ] Capture hierarchical mappings for 800-53
 * [ ] Capture hierarchical mappings for ASVS
-* [ ] Capture associative mappings for CIS CSC to NIST CSF (from CIS CSC source)
 * [ ] Capture equivalence and associative mappings for 800-171 to 800-53
 * [ ] Capture equivalence and associative mappings for CIS CSC to NIST 800-53
-* [ ] POC for visualization capabilities
 * [ ] Consider ways to include adversary activity taxonomies (_e.g._, [ATT&CK](https://attack.mitre.org/), [OWASP Top 10 Security Risks](https://owasp.org/www-project-top-ten/), [CAPEC](https://capec.mitre.org/))
-* [ ] Consider including SOC 2
-* [ ] Consider including PCI/DSS
-* [ ] Consider including ISO 2700X
-* [ ] Consider including COBIT
-* [ ] Consider including ITIL
-* [ ] Consider including HIPAA/HITRUST
-* [ ] Consider including FedRAMP
+* [ ] Consider including additional frameworks like SOC 2, PCI/DSS, ISO 2700X, COBIT, ITIL, HIPAA/HITRUST, FedRAMP
 
 ## License and Notice
 

@@ -134,7 +134,7 @@ The data and tools in this project can support:
 * [x] Determine mapping approach using SKOS, ISO 25964-2 and source documents
 * [x] Capture hierarchical mappings for NIST CSF
 * [x] Capture associative mappings for NIST CSF to 800-53 (from CSF source xml)
-* [ ] Capture associative mappings for NIST CSF to CIS CSC (from NIST CSF source)
+* [x] Capture associative mappings for NIST CSF to CIS CSC (from NIST CSF source)
 * [ ] Capture hierarchical mappings for 800-53
 * [ ] Capture hierarchical mappings for CIS CSC
 * [ ] Capture hierarchical mappings for ASVS

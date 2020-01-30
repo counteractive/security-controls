@@ -135,8 +135,9 @@ The data and tools in this project can support:
 * [x] Capture hierarchical mappings for NIST CSF
 * [x] Capture associative mappings for NIST CSF to 800-53 (from CSF source xml)
 * [x] Capture associative mappings for NIST CSF to CIS CSC (from NIST CSF source)
+* [x] Capture hierarchical mappings for CIS CSC (excluding implementation groups)
+* [ ] Capture implementation groups for CIS CSC
 * [ ] Capture hierarchical mappings for 800-53
-* [ ] Capture hierarchical mappings for CIS CSC
 * [ ] Capture hierarchical mappings for ASVS
 * [ ] Capture associative mappings for CIS CSC to NIST CSF (from CIS CSC source)
 * [ ] Capture equivalence and associative mappings for 800-171 to 800-53

@@ -23,7 +23,7 @@ This project is designed to support a thoughtful risk management strategy where 
 
 ## Controls (_a.k.a._, actions, requirements, outcomes)
 
-### Frameworks
+### Control Frameworks
 
 ID |Framework | URL | Version |  Notes
 -- | -- | -- | -- | --
@@ -34,13 +34,13 @@ ID |Framework | URL | Version |  Notes
 `owasp_10_v3` | Open Web Application Security Project (OWASP) Top Ten Proactive Controls 2018 | [OWASP Top 10](https://owasp.org/www-project-proactive-controls/) | 3 | Distinct from [OWASP Top 10 Security Risks](https://owasp.org/www-project-top-ten/)
 `asvs_v4.0.1` | OWASP Application Security Verification Standard| [ASVS](https://owasp.org/www-project-application-security-verification-standard/) | 4.0.1 |
 
-### Format
+### Control Format
 
 All controls are standardized to capture the following fields:
 
 Field | Description | Example
 -- | -- | --
-`source` | framework from which the item was drawn, using the ID listed above| `nist_csf_v1.1`
+`source` | framework from which the item was drawn, using the ID listed above | `nist_csf_v1.1`
 `id_raw` | identifier for the item drawn from the source (may not be globally unique), in its original format | `RS.MI`
 `id` | globally unique (namespaced) identifier created by combining `source` with lowercase, no-spaces `id_raw` | `nist_csf_v1.1:rs.mi`
 `tier_raw` | tier (group) for the item drawn from the source (may not be globally unique or consistent), in its original format | `Category`
@@ -50,7 +50,29 @@ Field | Description | Example
 
 ## Relationships (_e.g._, equivalence, hierarchy, association)
 
-TODO
+### Relationship Types
+
+Relationships ("mappings") contain their [Simple Knowledge Organization System (SKOS) mapping type](https://www.w3.org/TR/2009/REC-skos-reference-20090818/#mapping), one of the following:
+
+Type | SKOS Type | Properties | Notes
+-- | -- | -- | --
+Hierarchical | `skos:broadMatch`, `skos:narrowMatch` | transitive, each is the other's inverse | `dog skos:broadMatch mammal` ("is specific example of"), `mammal skos:narrowMatch dog` ("is generic category including").  **Only capture one level of ancestry** if possible, as the rest can be inferred through transitivity.
+Associative | `skos:relatedMatch` | non-transitive, symmetric (bidirectional) | generic, _non-hierarchical_ relationship
+Close equivalent | `skos:closeMatch` | non-transitive, symmetric (bidirectional) | "concepts ... sufficiently similar that they can be used interchangeably in _some [applications]_"
+Exact equivalent | `skos:exactMatch` | transitive, symmetric (bidirectional) |"two concepts ... that can be used interchangeably [in] a _wide range of [applications]_"
+
+### Relationship Format
+
+All relationships are standardized to capture the following fields:
+
+Field | Description | Example
+-- | -- | --
+`source` | framework from which the relationship was drawn, using the ID listed above, or `community` for those drawn from community input | `nist_csf_v1.1`
+`head` | `id` of the first endpoint (control, item) in this relationship; by convention (optionally), for non-directional relationship to another framework, this is the item from `source` | `nist_csf_v1.1:rs.co-3`
+`tail` | `id` of the second endpoint (control, item) in this relationship | `nist_800_53_v4:ir-4`
+`type_raw` |  type for the relationship from the source (may not be globally unique), in its original format; leave blank for outline-based hierarchies or other non-explicit relationship types | `Informative Reference`
+`type_skos` | [SKOS mapping type](https://www.w3.org/TR/2009/REC-skos-reference-20090818/#mapping) for the relationship, which captures its directionality, transitivity, and symmetry | `skos:relatedMatch`
+~~`id`~~ | ~~globally unique identifier, likely necessary, but nothing semantic comes to mind right away~~ | ~~TBD~~
 
 ## Labels (_a.k.a._, tags, metadata)
 
@@ -93,12 +115,18 @@ The data and tools in this project can support:
 ## Roadmap
 
 * [x] Publish clean, consistent controls framework data
-* [ ] Determine mapping approach using ISO 25964-2 and source documents
-* [ ] Capture mappings for NIST CSF to 800-53 (from CSF source xml)
-* [ ] Capture mappings for NIST CSF to CIS CSC (from NIST CSF source document)* [ ] Capture mappings for CIS CSC to NIST CSF (from CIS CSC source document)
-* [ ] Complete initial mapping for NIST CSF, CIS CSC, and 800-53
+* [x] Determine mapping approach using SKOS, ISO 25964-2 and source documents
+* [x] Capture hierarchical mappings for NIST CSF
+* [ ] Capture associative mappings for NIST CSF to 800-53 (from CSF source xml)
+* [ ] Capture associative mappings for NIST CSF to CIS CSC (from NIST CSF source)
+* [ ] Capture hierarchical mappings for 800-53
+* [ ] Capture hierarchical mappings for CIS CSC
+* [ ] Capture hierarchical mappings for ASVS
+* [ ] Capture associative mappings for CIS CSC to NIST CSF (from CIS CSC source)
+* [ ] Capture equivalence and associative mappings for 800-171 to 800-53
+* [ ] Capture equivalence and associative mappings for CIS CSC to NIST 800-53
 * [ ] POC for visualization capabilities
-* [ ] Consider including and mapping adversary activity taxonomies (_e.g._, [ATT&CK](https://attack.mitre.org/), [OWASP Top 10 Security Risks](https://owasp.org/www-project-top-ten/), [CAPEC](https://capec.mitre.org/))
+* [ ] Consider ways to include adversary activity taxonomies (_e.g._, [ATT&CK](https://attack.mitre.org/), [OWASP Top 10 Security Risks](https://owasp.org/www-project-top-ten/), [CAPEC](https://capec.mitre.org/))
 * [ ] Consider including SOC 2
 * [ ] Consider including PCI/DSS
 * [ ] Consider including ISO 2700X

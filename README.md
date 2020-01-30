@@ -105,7 +105,19 @@ The data and tools in this project can support:
 ## Frequently Asked Questions (FAQ)
 
 * **Why do you mix application security and organizational/corporate information security frameworks?** Our master list strives to include all reputable information security controls, across a wide variety of domains.  We support the use of [labels](#labels) to add metadata to controls, and if that distinction is important to your team, we encourage you to capture it within the mode.  More broadly: different organizations assign security responsibilities differently, and for many firms their applications _are_ their entire organization.  There's often no meaningful distinction in the world of small business, DevSecOps, or integrated IT/security teams - the same people are responsible for most of it!
+
 * **How did you choose the relationships (mappings)?** We created initial mappings based on the source documents themselves (_i.e._, they say X maps to Y), as well as a good-faith effort to apply the principles in ISO 25964-2, "Information and documentation — Thesauri and interoperability with other vocabularies - Part 2: Interoperability with other vocabularies."  In so many cases it's a matter of judgment and usability - if you think X should be mapped to Y, please open an issue or pull request and we can discuss it!  Because relationships have metadata, you can also create and use your own without breaking anything.
+
+* **Why isn't this in a database?** Text files are universal and CSV and JSON cover a lot of use-cases, both technical and non-technical.  If you want a database-like experience, you can import them into your DB of choice, or use a [tool like `q`](http://harelba.github.io/q/) which lets you run SQL queries on text files:
+
+  ```bash
+  $ q -H -d , "select id, title, description from ./controls.csv where id like '%csf%' and tier = 0"
+  # nist_csf_v1.1:de,Detect,Develop and implement appropriate activities ...
+  # nist_csf_v1.1:id,Identify,Develop an organizational understanding ...
+  # nist_csf_v1.1:pr,Protect,Develop and implement appropriate ...
+  # nist_csf_v1.1:rc,Recover,Develop and implement appropriate ...
+  # nist_csf_v1.1:rs,Respond,Develop and implement appropriate ...
+  ```
 
 ## References and Prior Art
 

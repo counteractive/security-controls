@@ -27,6 +27,8 @@
 
   <script>
 
+    var STATE = {}
+
     $.when(
       $.ajax({
         url: 'https://raw.githubusercontent.com/counteractive/security-controls/master/data/frameworks.json',
@@ -44,36 +46,40 @@
         success: data => data
       })
     ).then( (f, c, r) => {
-      return main(f[0], c[0], r[0])
+      STATE = {
+        frameworks: f[0],
+        controls: c[0],
+        relationships: r[0]
+      }
+      main()
     })
 
-    function main(frameworks, controls, relationships) {
-      let demo1 = $('<div></div>')
+    function main() {
+      let demo1 = $('<div class="content"></div>')
       $('#app').append(demo1)
 
-      _(frameworks).forEach(f => {
+      _(STATE.frameworks).forEach(f => {
         console.log(`working with framework ${f.id}`)
         demo1.append(`<h2>${f.title} (${f.abbreviation})</h2>`)
-        _(controls)
+        _(STATE.controls)
           .filter(c => c.source === f.id && c.tier === '0')
-          .sortBy(['seq'])
-          .map( c => tree($(`<ul></ul>`), c, controls, relationships) )
+          .sortBy(c => parseInt(c.seq, 10))
+          .map( c => tree($(`<ul></ul>`), c, STATE.controls, STATE.relationships) )
           .each( t => { demo1.append(t) } )
       })
     }
 
     function tree(list, control, controls, relationships){
 
-      let li = $(`<li>${control.id}: ${control.title || control.description}</li>`)
+      let li = $(`<li>${control.id_raw}: ${control.title || control.description}</li>`)
 
       let children = _(relationships)
         .filter(r => r.tail === control.id && r.type_skos === 'skos:broadMatch')
         .map(r => _(controls).find(c => c.id === r.head ) )
-        .sortBy(['seq'])
+        .sortBy(c => parseInt(c.seq, 10))
         .value()
 
       if( !_(children).isEmpty() ){
-        console.log(children)
         let ul = $(`<ul></ul>`)
         children.forEach( c => tree(ul, c, controls, relationships) )
         li.append(ul)

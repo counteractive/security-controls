@@ -151,6 +151,8 @@ The data and tools in this project can support:
 * [x] Capture implementation groups for CIS CSC
 * [ ] POC for visualization capabilities
 * [x] Add an optional sequence number for controls at a tier (within a framework) for in-source ordering
+* [x] Add all sequence numbers for NIST CSF, CIS CSC, and 800-171
+* [x] Add all sequence numbers for NIST 800-53
 * [ ] Capture associative mappings for CIS CSC to NIST CSF (from CIS CSC source)
 * [ ] Capture hierarchical mappings for 800-53
 * [ ] Capture hierarchical mappings for ASVS

@@ -15,7 +15,7 @@
     <section class="section">
       <div class="container">
         <h1 class="title">Security Controls Demonstration</h1>
-        <div id="trees"></div>
+        <div id="app"></div>
       </div>
     </section>
   </div>
@@ -26,34 +26,64 @@
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> -->
 
   <script>
-    let frameworks = []
-    let controls = []
-    let relationships = []
+
     $.when(
       $.ajax({
         url: 'https://raw.githubusercontent.com/counteractive/security-controls/master/data/frameworks.json',
         dataType: 'json',
-        success: data => { frameworks = data }
+        success: data => data
       }),
       $.ajax({
         url: 'https://raw.githubusercontent.com/counteractive/security-controls/master/data/controls.json',
         dataType: 'json',
-        success: data => { controls = data }
+        success: data => data
       }),
       $.ajax({
         url: 'https://raw.githubusercontent.com/counteractive/security-controls/master/data/relationships.json',
         dataType: 'json',
-        success: data => { relationships = data }
+        success: data => data
       })
-    ).then(() => {
-      // console.log(frameworks)
-      // console.log(controls)
-      // console.log(relationships)
-      _.forEach(frameworks, v => {
-        $('#trees').append(`<h2>${v.title} (${v.abbreviation})</h2>`)
-        $('#trees').append(`<ul class="${v.id}"></ul>`)
-      })
+    ).then( (f, c, r) => {
+      return main(f[0], c[0], r[0])
     })
+
+    function main(frameworks, controls, relationships) {
+      let demo1 = $('<div></div>')
+      $('#app').append(demo1)
+
+      _(frameworks).forEach(f => {
+        console.log(`working with framework ${f.id}`)
+        demo1.append(`<h2>${f.title} (${f.abbreviation})</h2>`)
+        _(controls)
+          .filter(c => c.source === f.id && c.tier === '0')
+          .sortBy(['seq'])
+          .map( c => tree($(`<ul></ul>`), c, controls, relationships) )
+          .each( t => { demo1.append(t) } )
+      })
+    }
+
+    function tree(list, control, controls, relationships){
+
+      let li = $(`<li>${control.id}: ${control.title || control.description}</li>`)
+
+      let children = _(relationships)
+        .filter(r => r.tail === control.id && r.type_skos === 'skos:broadMatch')
+        .map(r => _(controls).find(c => c.id === r.head ) )
+        .sortBy(['seq'])
+        .value()
+
+      if( !_(children).isEmpty() ){
+        console.log(children)
+        let ul = $(`<ul></ul>`)
+        children.forEach( c => tree(ul, c, controls, relationships) )
+        li.append(ul)
+      }
+
+      list.append(li)
+
+      return list
+    }
+
   </script>
 
 </body>

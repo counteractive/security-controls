@@ -1,0 +1,8 @@
+/* TEAM */
+Creator: Chris Hendricks
+Site: https://www.counteractive.net
+Twitter: @counteract_ive
+Location: San Antonio, Texas, USA
+
+/* THANKS */
+Controls Framework Authors: Everyone involved in creating and maintaining the included frameworks

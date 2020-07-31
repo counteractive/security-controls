@@ -4,5 +4,9 @@ Site: https://www.counteractive.net
 Twitter: @counteract_ive
 Location: San Antonio, Texas, USA
 
+Contributor: Oliver Hamuy
+GitHub: ohamuy
+Location: Los Angeles, CA, USA
+
 /* THANKS */
 Controls Framework Authors: Everyone involved in creating and maintaining the included frameworks

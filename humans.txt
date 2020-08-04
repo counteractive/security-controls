@@ -10,3 +10,7 @@ Location: Los Angeles, CA, USA
 
 /* THANKS */
 Controls Framework Authors: Everyone involved in creating and maintaining the included frameworks
+
+Contributor: Alice Wang
+Email: alicewcq0811@gmail.com
+

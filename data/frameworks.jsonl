@@ -1,0 +1,6 @@
+{"id":"nist_csf_v1.1","abbreviation":"NIST CSF","title":"National Institute for Standards and Technology (NIST) Framework for Improving Critical Infrastructure Cybersecurity","url":"https://www.nist.gov/cyberframework","version":"1.1"}
+{"id":"cis_csc_v7.1","abbreviation":"CIS CSC","title":"Center for Internet Security (CIS) Controls","url":"http://www.cisecurity.org/controls","version":"7.1"}
+{"id":"nist_800_53_v4","abbreviation":"NIST 800-53","title":"NIST Security and Privacy Controls for Federal Information Systems and Organizations","url":"https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final","version":"4"}
+{"id":"nist_800_171_v1","abbreviation":"NIST 800-171","title":"Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations","url":"https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final","version":"1"}
+{"id":"owasp_10_v3","abbreviation":"OWASP Top 10 Controls","title":"Open Web Application Security Project (OWASP) Top Ten Proactive Controls 2018","url":"https://owasp.org/www-project-proactive-controls","version":"3"}
+{"id":"asvs_v4.0.1","abbreviation":"ASVS","title":"OWASP Application Security Verification Standard","url":"https://owasp.org/www-project-application-security-verification-standard","version":"4.0.1"}

@@ -1152,3 +1152,72 @@ cis_csc_v7.1,cis_csc_v7.1:9.2,cis_csc_v7.1:ig2,,skos:broadMatch
 cis_csc_v7.1,cis_csc_v7.1:9.3,cis_csc_v7.1:ig2,,skos:broadMatch
 cis_csc_v7.1,cis_csc_v7.1:9.4,cis_csc_v7.1:ig1,,skos:broadMatch
 cis_csc_v7.1,cis_csc_v7.1:9.5,cis_csc_v7.1:ig3,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.1,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.10,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.11,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.12,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.13,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.14,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.15,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.16,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.17,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.18,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.19,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.2,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.20,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.21,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.22,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.3,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.4,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.5,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.6,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.7,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.8,nist_800_171_v1:3.1,,skos:broadMatch
+nist_800_171_v1,nist_800_171_v1:3.1.9,nist_800_171_v1:3.1,,skos:broadMatch
+"cis_csc_v7.1	","cis_csc_v7.1:1	","nist_800_171_v1:3.1.1	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:11.5	",nist_800_171_v1:3.1.12,,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:11.5	",nist_800_171_v1:3.1.13,,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:16.11	","nist_800_171_v1:3.1.10	",,"skos:closeMatch	"
+"cis_csc_v7.1	","cis_csc_v7.1:16.11	","nist_800_171_v1:3.1.10	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:11.5	","nist_800_171_v1:3.1.13	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:12.11	","nist_800_171_v1:3.1.13	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:12.12	","nist_800_171_v1:3.1.12	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:12.2	","nist_800_171_v1:3.1.16	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:12.11	","nist_800_171_v1:3.1.16	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:12.11	","nist_800_171_v1:3.1.17	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:1.7	","nist_800_171_v1:3.1.1	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:1.1	","nist_800_171_v1:3.1.1	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:1.2	","nist_800_171_v1:3.1.1	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:4	","nist_800_171_v1:3.1.4	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:4	","nist_800_171_v1:3.1.5	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:4	","nist_800_171_v1:3.1.6	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:4.1	","nist_800_171_v1:3.1.7	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:1.4	","nist_800_171_v1:3.10.1	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:1.4	","nist_800_171_v1:3.10.2	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:1.5	","nist_800_171_v1:3.10.2	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:12	","nist_800_171_v1:3.1.22	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:12	","nist_800_171_v1:3.1.3	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:12.12	","nist_800_171_v1:3.1.16	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:1.5	","nist_800_171_v1:3.10.4	",,skos:relatedMatch
+"cis_csc_v7.1	","cis_csc_v7.1:1.5	","nist_800_171_v1:3.10.5	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-11	","cis_csc_v7.1:16.11	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-11(1)	","nist_800_171_v1:3.1.10	",,"skos:closeMatch	"
+"nist_800_53_v4	","nist_800_53_v4:ac-13	","cis_csc_v7.1:1.7	",,skos:relatedMatch
+"nist_800_53_v4	",nist_800_53_v4:ac-16(2),"cis_csc_v7.1:14.6	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-17(1)	","cis_csc_v7.1:12.12	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-17(1)	","cis_csc_v7.1:13.1	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-17(1)	","cis_csc_v7.1:14.5	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-17(2)	","cis_csc_v7.1:11.5	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-17(2)	","cis_csc_v7.1:16.5	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-17(2)	","cis_csc_v7.1:16.4	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-17(2)	","nist_800_171_v1:3.1.17	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-19(5)	","cis_csc_v7.1:13.6	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-18(1)	","cis_csc_v7.1:15.8	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-18(3)	","cis_csc_v7.1:15.4	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-2(4)	","cis_csc_v7.1:16	",,"skos:closeMatch	"
+"nist_800_53_v4	","nist_800_53_v4:ac-2(12)	","cis_csc_v7.1:16.13	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-2(7)	","cis_csc_v7.1:4	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-2(3)	","cis_csc_v7.1:16.9	",,"skos:closeMatch	"
+"nist_800_53_v4	","nist_800_53_v4:ac-18(5)	","cis_csc_v7.1:15.9	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-20	","cis_csc_v7.1:13.8	",,skos:relatedMatch
+"nist_800_53_v4	","nist_800_53_v4:ac-20(2)	","nist_800_171_v1:3.1.21	",,"skos:closeMatch	"

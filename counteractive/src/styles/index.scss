@@ -1,0 +1,21 @@
+//counteractive colors
+$dark_blue: #1a1b41;
+$light_blue: #247ba0;
+$black: black;
+$gray: #363636;
+$off_white: #fafafa;
+$white: white;
+
+html, body {
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}

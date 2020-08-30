@@ -1,0 +1,26 @@
+.intro {
+    border: 1px red solid;
+    margin: 2rem 5rem;
+    height: 10rem;
+}
+
+.mainContent {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-gap: 1rem;
+    height: 30rem;
+}
+
+.content {
+    border: 1px solid red;
+    grid-column: col-start / span 9;
+    margin-left: 5rem;
+    grid-row: 1 / 12;
+}
+
+.sidebar {
+    border:1px solid green;
+    grid-column: col-start 10 / span 3;
+    margin-right: 5rem;
+    grid-row: 1 / 12;
+}

@@ -1,0 +1,54 @@
+$light_blue: #247ba0;
+
+.headerBar {
+    width: 100%;
+    position: fixed;
+    height: 3rem;
+    background-color: #1a1b41;
+    z-index: 1;
+}
+
+.headerImg {
+    position: absolute;
+    cursor: pointer;
+    left: .5rem;
+    top: 50%;
+    transform: translate(0,-50%);
+    margin-top: .1rem;
+}
+
+.title {
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    font-weight: bolder;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nav {
+    position: absolute;
+    right:1rem;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.navBtn {
+    margin-right: 2rem;
+}
+
+.link {
+    text-decoration: none !important;
+
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none !important;
+        color:white;
+    }
+    &:hover {
+        color: #a9a9a9;
+    }
+}
+

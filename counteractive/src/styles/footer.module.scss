@@ -1,0 +1,90 @@
+.footer {
+    position: relative;
+    flex-shrink: 0;
+    height: 16rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+    z-index: 0;
+    background-color: #1a1b41;
+}
+
+.title {
+    position: absolute;
+    font-weight: bold;
+    left: 8rem;
+    top: 1rem;
+    font-size: 1.7rem;
+}
+
+.links {
+    position: absolute;
+    top: 1rem;
+    right: 40rem;
+}
+
+.contactTitle {
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+}
+
+.contactUs {
+    position: absolute;
+}
+
+.contactContent {
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.followUsTitle {
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+}
+
+.followUs {
+    position: absolute;
+    left: 21rem;
+    width: 10rem;
+}
+
+.followUsContent1 {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    left: 1.5rem;
+
+}
+
+.followUsContent2 {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    right: 1.5rem;
+
+}
+
+.contactContent:hover, .followUsContent1:hover, .followUsContent2:hover {
+    color: #a9a9a9;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    background-color: #2e3047;
+    height: 6rem;
+    width: 100%;
+    border-top: 1px solid white;
+}
+
+.copyright {
+    position: absolute;
+    left: 8rem;
+    top: 2rem;
+}

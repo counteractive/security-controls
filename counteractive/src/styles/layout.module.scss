@@ -1,0 +1,15 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+    position: relative;
+    top: 3rem;
+    width: 100%;
+    font-size: 40px; //change later
+    font-weight: bold;
+    text-align: center;
+}

@@ -5,3 +5,4 @@
 {"id":"owasp_10_v3","abbreviation":"OWASP Top 10 Controls","title":"Open Web Application Security Project (OWASP) Top Ten Proactive Controls 2018","url":"https://owasp.org/www-project-proactive-controls","version":"3"}
 {"id":"asvs_v4.0.1","abbreviation":"ASVS","title":"OWASP Application Security Verification Standard","url":"https://owasp.org/www-project-application-security-verification-standard","version":"4.0.1"}
 {"id":"fsscc_profile_v1.0","abbreviation":"FSSCC Profile","title":"Financial Services Sector Coordinating Council (FSSCC) Profile","url":"https://fsscc.org/The-Profile-FAQs","version":"1.0"}
+{"id":"ffiec_cat_v2017.05","abbreviation":"FFIEC CAT","title":"Federal Financial Institutions Examination Council (FFIEC) Cybersecurity Assessment Tool","url":"https://www.ffiec.gov/cyberassessmenttool.htm","version":"2017.05"}

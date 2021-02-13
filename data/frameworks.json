@@ -47,5 +47,12 @@
     "title": "Financial Services Sector Coordinating Council (FSSCC) Profile",
     "url": "https://fsscc.org/The-Profile-FAQs",
     "version": "1.0"
+  },
+  {
+    "id": "ffiec_cat_v2017.05",
+    "abbreviation": "FFIEC CAT",
+    "title": "Federal Financial Institutions Examination Council (FFIEC) Cybersecurity Assessment Tool",
+    "url": "https://www.ffiec.gov/cyberassessmenttool.htm",
+    "version": "2017.05"
   }
 ]

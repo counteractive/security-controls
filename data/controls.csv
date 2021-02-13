@@ -2525,3 +2525,712 @@ fsscc_profile_v1.0,fsscc_profile_v1.0:dm.be-1.2,DM.BE-1.2,Statement,3,274,,A for
 fsscc_profile_v1.0,fsscc_profile_v1.0:dm.be-2.1,DM.BE-2.1,Statement,3,275,,The organization has established and implemented plans to identify and mitigate the cyber risks it poses through interconnectedness to sector partners and external stakeholders.
 fsscc_profile_v1.0,fsscc_profile_v1.0:dm.be-2.2,DM.BE-2.2,Statement,3,276,,"The organization has prioritized monitoring of systems according to their criticality to the supported business functions, enterprise mission, and to the financial services sector."
 fsscc_profile_v1.0,fsscc_profile_v1.0:dm.be-3.1,DM.BE-3.1,Statement,3,277,,"Cyber resilience requirements to support delivery of critical services are established for all operating states (e.g., under duress/attack, during recovery, normal operations)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1,D1,Domain,0,1,Cyber Risk Management & Oversight,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2,D2,Domain,0,2,Threat Intelligence & Collaboration,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3,D3,Domain,0,3,Cybersecurity Controls,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4,D4,Domain,0,4,External Dependency Management,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5,D5,Domain,0,5,Cyber Incident Management and Resilience,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g,D1.G,Factor,1,1,Governance,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm,D1.RM,Factor,1,2,Risk Management,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r,D1.R,Factor,1,3,Resources,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc,D1.TC,Factor,1,4,Training & Culture,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti,D2.TI,Factor,1,5,Threat Intelligence,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma,D2.MA,Factor,1,6,Monitoring & Analyzing,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is,D2.IS,Factor,1,7,Information Sharing,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc,D3.PC,Factor,1,8,Preventative Controls,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc,D3.DC,Factor,1,9,Detective Controls,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc,D3.CC,Factor,1,10,Corrective Controls,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c,D4.C,Factor,1,11,Connections,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm,D4.RM,Factor,1,12,Relationship Management,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir,D5.IR,Factor,1,13,Incident Resilience Planning and Strategy,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr,D5.DR,Factor,1,14,"Detection, Response, and Mitigation",
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er,D5.ER,Factor,1,15,Escalation and Reporting,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov,D1.G.Ov,Component,2,1,Oversight,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp,D1.G.SP,Component,2,2,Strategy / Policies,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it,D1.G.IT,Component,2,3,IT Asset Management,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp,D1.RM.RMP,Component,2,4,Risk Management Program,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra,D1.RM.RA,Component,2,5,Risk Assessment,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au,D1.RM.Au,Component,2,6,Audit,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.st,D1.R.St,Component,2,7,Staffing,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr,D1.TC.Tr,Component,2,8,Training,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu,D1.TC.Cu,Component,2,9,Culture,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti,D2.TI.Ti,Component,2,10,Threat Intelligence and Information,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma,D2.MA.Ma,Component,2,11,Monitoring and Analyzing,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is,D2.IS.Is,Component,2,12,Information Sharing,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im,D3.PC.Im,Component,2,13,Infrastructure Management,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am,D3.PC.Am,Component,2,14,Access and Data Management,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de,D3.PC.De,Component,2,15,Device / End-Point Security,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se,D3.PC.Se,Component,2,16,Secure Coding,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th,D3.DC.Th,Component,2,17,Threat and Vulnerability Detection,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an,D3.DC.An,Component,2,18,Anomalous Activity Detection,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev,D3.DC.Ev,Component,2,19,Event Detection,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa,D3.CC.Pa,Component,2,20,Patch Management,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re,D3.CC.Re,Component,2,21,Remediation,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co,D4.C.Co,Component,2,22,Connections,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd,D4.RM.Dd,Component,2,23,Due Diligence,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co,D4.RM.Co,Component,2,24,Contracts,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om,D4.RM.Om,Component,2,25,Ongoing Monitoring,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl,D5.IR.Pl,Component,2,26,Planning,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te,D5.IR.Te,Component,2,27,Testing,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de,D5.DR.De,Component,2,28,Detection,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re,D5.DR.Re,Component,2,29,Response and Mitigation,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es,D5.ER.Es,Component,2,30,Escalation and Reporting,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.b,D1.G.Ov.B,Maturity Level,3,1,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.e,D1.G.Ov.E,Maturity Level,3,2,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.int,D1.G.Ov.Int,Maturity Level,3,3,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.a,D1.G.Ov.A,Maturity Level,3,4,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.inn,D1.G.Ov.Inn,Maturity Level,3,5,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.b,D1.G.SP.B,Maturity Level,3,6,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.e,D1.G.SP.E,Maturity Level,3,7,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.int,D1.G.SP.Int,Maturity Level,3,8,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.a,D1.G.SP.A,Maturity Level,3,9,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.inn,D1.G.SP.Inn,Maturity Level,3,10,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.b,D1.G.IT.B,Maturity Level,3,11,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.e,D1.G.IT.E,Maturity Level,3,12,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.int,D1.G.IT.Int,Maturity Level,3,13,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.a,D1.G.IT.A,Maturity Level,3,14,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.inn,D1.G.IT.Inn,Maturity Level,3,15,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.b,D1.RM.RMP.B,Maturity Level,3,16,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.e,D1.RM.RMP.E,Maturity Level,3,17,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.int,D1.RM.RMP.Int,Maturity Level,3,18,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.a,D1.RM.RMP.A,Maturity Level,3,19,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.inn,D1.RM.RMP.Inn,Maturity Level,3,20,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.b,D1.RM.RA.B,Maturity Level,3,21,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.e,D1.RM.RA.E,Maturity Level,3,22,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.int,D1.RM.RA.Int,Maturity Level,3,23,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.a,D1.RM.RA.A,Maturity Level,3,24,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.inn,D1.RM.RA.Inn,Maturity Level,3,25,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.b,D1.RM.Au.B,Maturity Level,3,26,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.e,D1.RM.Au.E,Maturity Level,3,27,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.int,D1.RM.Au.Int,Maturity Level,3,28,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.a,D1.RM.Au.A,Maturity Level,3,29,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.inn,D1.RM.Au.Inn,Maturity Level,3,30,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.st.b,D1.R.St.B,Maturity Level,3,31,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.st.e,D1.R.St.E,Maturity Level,3,32,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.st.int,D1.R.St.Int,Maturity Level,3,33,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.st.a,D1.R.St.A,Maturity Level,3,34,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.st.inn,D1.R.St.Inn,Maturity Level,3,35,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.b,D1.TC.Tr.B,Maturity Level,3,36,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.e,D1.TC.Tr.E,Maturity Level,3,37,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.int,D1.TC.Tr.Int,Maturity Level,3,38,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.a,D1.TC.Tr.A,Maturity Level,3,39,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.inn,D1.TC.Tr.Inn,Maturity Level,3,40,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.b,D1.TC.Cu.B,Maturity Level,3,41,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.e,D1.TC.Cu.E,Maturity Level,3,42,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.int,D1.TC.Cu.Int,Maturity Level,3,43,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.a,D1.TC.Cu.A,Maturity Level,3,44,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.inn,D1.TC.Cu.Inn,Maturity Level,3,45,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.b,D2.TI.Ti.B,Maturity Level,3,46,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.e,D2.TI.Ti.E,Maturity Level,3,47,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.int,D2.TI.Ti.Int,Maturity Level,3,48,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.a,D2.TI.Ti.A,Maturity Level,3,49,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.inn,D2.TI.Ti.Inn,Maturity Level,3,50,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.b,D2.MA.Ma.B,Maturity Level,3,51,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.e,D2.MA.Ma.E,Maturity Level,3,52,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.int,D2.MA.Ma.Int,Maturity Level,3,53,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.a,D2.MA.Ma.A,Maturity Level,3,54,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.inn,D2.MA.Ma.Inn,Maturity Level,3,55,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.b,D2.IS.Is.B,Maturity Level,3,56,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.e,D2.IS.Is.E,Maturity Level,3,57,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.int,D2.IS.Is.Int,Maturity Level,3,58,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.a,D2.IS.Is.A,Maturity Level,3,59,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.inn,D2.IS.Is.Inn,Maturity Level,3,60,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b,D3.PC.Im.B,Maturity Level,3,61,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.e,D3.PC.Im.E,Maturity Level,3,62,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.int,D3.PC.Im.Int,Maturity Level,3,63,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.a,D3.PC.Im.A,Maturity Level,3,64,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.inn,D3.PC.Im.Inn,Maturity Level,3,65,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b,D3.PC.Am.B,Maturity Level,3,66,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.e,D3.PC.Am.E,Maturity Level,3,67,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.int,D3.PC.Am.Int,Maturity Level,3,68,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.a,D3.PC.Am.A,Maturity Level,3,69,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.inn,D3.PC.Am.Inn,Maturity Level,3,70,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.b,D3.PC.De.B,Maturity Level,3,71,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.e,D3.PC.De.E,Maturity Level,3,72,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.int,D3.PC.De.Int,Maturity Level,3,73,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.a,D3.PC.De.A,Maturity Level,3,74,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.inn,D3.PC.De.Inn,Maturity Level,3,75,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.b,D3.PC.Se.B,Maturity Level,3,76,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.e,D3.PC.Se.E,Maturity Level,3,77,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.int,D3.PC.Se.Int,Maturity Level,3,78,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.a,D3.PC.Se.A,Maturity Level,3,79,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.inn,D3.PC.Se.Inn,Maturity Level,3,80,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.b,D3.DC.Th.B,Maturity Level,3,81,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.e,D3.DC.Th.E,Maturity Level,3,82,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.int,D3.DC.Th.Int,Maturity Level,3,83,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.a,D3.DC.Th.A,Maturity Level,3,84,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.inn,D3.DC.Th.Inn,Maturity Level,3,85,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.b,D3.DC.An.B,Maturity Level,3,86,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.e,D3.DC.An.E,Maturity Level,3,87,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.int,D3.DC.An.Int,Maturity Level,3,88,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.a,D3.DC.An.A,Maturity Level,3,89,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.inn,D3.DC.An.Inn,Maturity Level,3,90,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.b,D3.DC.Ev.B,Maturity Level,3,91,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.e,D3.DC.Ev.E,Maturity Level,3,92,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.int,D3.DC.Ev.Int,Maturity Level,3,93,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.a,D3.DC.Ev.A,Maturity Level,3,94,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.inn,D3.DC.Ev.Inn,Maturity Level,3,95,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.b,D3.CC.Pa.B,Maturity Level,3,96,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.e,D3.CC.Pa.E,Maturity Level,3,97,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.int,D3.CC.Pa.Int,Maturity Level,3,98,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.a,D3.CC.Pa.A,Maturity Level,3,99,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.inn,D3.CC.Pa.Inn,Maturity Level,3,100,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.b,D3.CC.Re.B,Maturity Level,3,101,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.e,D3.CC.Re.E,Maturity Level,3,102,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.int,D3.CC.Re.Int,Maturity Level,3,103,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.a,D3.CC.Re.A,Maturity Level,3,104,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.inn,D3.CC.Re.Inn,Maturity Level,3,105,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.b,D4.C.Co.B,Maturity Level,3,106,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.e,D4.C.Co.E,Maturity Level,3,107,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.int,D4.C.Co.Int,Maturity Level,3,108,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.a,D4.C.Co.A,Maturity Level,3,109,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.inn,D4.C.Co.Inn,Maturity Level,3,110,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.b,D4.RM.Dd.B,Maturity Level,3,111,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.e,D4.RM.Dd.E,Maturity Level,3,112,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.int,D4.RM.Dd.Int,Maturity Level,3,113,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.a,D4.RM.Dd.A,Maturity Level,3,114,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.inn,D4.RM.Dd.Inn,Maturity Level,3,115,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.b,D4.RM.Co.B,Maturity Level,3,116,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.e,D4.RM.Co.E,Maturity Level,3,117,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.int,D4.RM.Co.Int,Maturity Level,3,118,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.a,D4.RM.Co.A,Maturity Level,3,119,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.inn,D4.RM.Co.Inn,Maturity Level,3,120,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.b,D4.RM.Om.B,Maturity Level,3,121,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.e,D4.RM.Om.E,Maturity Level,3,122,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.int,D4.RM.Om.Int,Maturity Level,3,123,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.a,D4.RM.Om.A,Maturity Level,3,124,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.inn,D4.RM.Om.Inn,Maturity Level,3,125,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.b,D5.IR.Pl.B,Maturity Level,3,126,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.e,D5.IR.Pl.E,Maturity Level,3,127,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.int,D5.IR.Pl.Int,Maturity Level,3,128,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.a,D5.IR.Pl.A,Maturity Level,3,129,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.inn,D5.IR.Pl.Inn,Maturity Level,3,130,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.b,D5.IR.Te.B,Maturity Level,3,131,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.e,D5.IR.Te.E,Maturity Level,3,132,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.int,D5.IR.Te.Int,Maturity Level,3,133,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.a,D5.IR.Te.A,Maturity Level,3,134,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.inn,D5.IR.Te.Inn,Maturity Level,3,135,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.b,D5.DR.De.B,Maturity Level,3,136,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.e,D5.DR.De.E,Maturity Level,3,137,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.int,D5.DR.De.Int,Maturity Level,3,138,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.a,D5.DR.De.A,Maturity Level,3,139,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.inn,D5.DR.De.Inn,Maturity Level,3,140,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.b,D5.DR.Re.B,Maturity Level,3,141,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.e,D5.DR.Re.E,Maturity Level,3,142,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.int,D5.DR.Re.Int,Maturity Level,3,143,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.a,D5.DR.Re.A,Maturity Level,3,144,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.inn,D5.DR.Re.Inn,Maturity Level,3,145,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.b,D5.ER.Es.B,Maturity Level,3,146,Baseline,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.e,D5.ER.Es.E,Maturity Level,3,147,Evolving,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.int,D5.ER.Es.Int,Maturity Level,3,148,Intermediate,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.a,D5.ER.Es.A,Maturity Level,3,149,Advanced,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.inn,D5.ER.Es.Inn,Maturity Level,3,150,Innovative,
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.b.1,D1.G.Ov.B.1,Statement,4,1,,"Designated members of management are held accountable by the board or an appropriate board committee for implementing and managing the information security and business continuity programs. (FFIEC Information Security Booklet, page 3)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.b.2,D1.G.Ov.B.2,Statement,4,2,,"Information security risks are discussed in management meetings when prompted by highly visible cyber events or regulatory alerts. (FFIEC Information Security Booklet, page 6)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.b.3,D1.G.Ov.B.3,Statement,4,3,,"Management provides a written report on the overall status of the information security and business continuity programs to the board or an appropriate board committee at least annually. (FFIEC Information Security Booklet, page 5)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.b.4,D1.G.Ov.B.4,Statement,4,4,,"The budgeting process includes information security related expenses and tools. (FFIEC E-Banking Booklet, page 20)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.b.5,D1.G.Ov.B.5,Statement,4,5,,"Management considers the risks posed by other critical infrastructures (e.g., telecommunications, energy) to the institution. (FFIEC Business Continuity Planning Booklet, page J-12)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.e.1,D1.G.Ov.E.1,Statement,4,6,,"At least annually, the board or an appropriate board committee reviews
+and approves the institution’s cybersecurity program."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.e.2,D1.G.Ov.E.2,Statement,4,7,,Management is responsible for ensuring compliance with legal and regulatory requirements related to cybersecurity.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.e.3,D1.G.Ov.E.3,Statement,4,8,,Cybersecurity tools and staff are requested through the budget process.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.e.4,D1.G.Ov.E.4,Statement,4,9,,There is a process to formally discuss and estimate potential expenses associated with cybersecurity incidents as part of the budgeting process.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.int.1,D1.G.Ov.Int.1,Statement,4,10,,The board or an appropriate board committee has cybersecurity expertise or engages experts to assist with oversight responsibilities.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.int.2,D1.G.Ov.Int.2,Statement,4,11,,The standard board meeting package includes reports and metrics that go beyond events and incidents to address threat intelligence trends and the institution’s security posture.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.int.3,D1.G.Ov.Int.3,Statement,4,12,,The institution has a cyber risk appetite statement approved by the board or an appropriate board committee.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.int.4,D1.G.Ov.Int.4,Statement,4,13,,Cyber risks that exceed the risk appetite are escalated to management. 
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.int.5,D1.G.Ov.Int.5,Statement,4,14,,The board or an appropriate board committee ensures management’s annual cybersecurity self-assessment evaluates the institution’s ability to meet its cyber risk management standards.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.int.6,D1.G.Ov.Int.6,Statement,4,15,,The board or an appropriate board committee reviews and approves management’s prioritization and resource allocation decisions based on the results of the cyber assessments.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.int.7,D1.G.Ov.Int.7,Statement,4,16,,The board or an appropriate board committee ensures management takes appropriate actions to address changing cyber risks or significant cybersecurity issues.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.int.8,D1.G.Ov.Int.8,Statement,4,17,,The budget process for requesting additional cybersecurity staff and tools is integrated into business units’ budget processes.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.a.1,D1.G.Ov.A.1,Statement,4,18,,The board or board committee approved cyber risk appetite statement is part of the enterprise-wide risk appetite statement.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.a.2,D1.G.Ov.A.2,Statement,4,19,,Management has a formal process to continuously improve cybersecurity oversight.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.a.3,D1.G.Ov.A.3,Statement,4,20,,The budget process for requesting additional cybersecurity staff and tools maps current resources and tools to the cybersecurity strategy.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.a.4,D1.G.Ov.A.4,Statement,4,21,,Management and the board or an appropriate board committee hold business units accountable for effectively managing all cyber risks associated with their activities.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.a.5,D1.G.Ov.A.5,Statement,4,22,,Management identifies root cause(s) when cyber attacks result in material loss.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.a.6,D1.G.Ov.A.6,Statement,4,23,,The board or an appropriate board committee ensures that management’s actions consider the cyber risks that the institution poses to the financial sector.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.inn.1,D1.G.Ov.Inn.1,Statement,4,24,,The board or an appropriate board committee discusses ways for management to develop cybersecurity improvements that may be adopted sector-wide.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.ov.inn.2,D1.G.Ov.Inn.2,Statement,4,25,,"The board or an appropriate board committee verifies that management’s actions consider the cyber risks that the institution poses to other critical infrastructures (e.g., telecommunications, energy)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.b.1,D1.G.SP.B.1,Statement,4,26,,"The institution has an information security strategy that integrates technology, policies, procedures, and training to mitigate risk. (FFIEC Information Security Booklet, page 3)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.b.2,D1.G.SP.B.2,Statement,4,27,,"The institution has policies commensurate with its risk and complexity that address the concepts of information technology risk management. (FFIEC Information Security Booklet, page, 16)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.b.3,D1.G.SP.B.3,Statement,4,28,,"The institution has policies commensurate with its risk and complexity that address the concepts of threat information sharing. (FFIEC E- Banking Booklet, page 28)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.b.4,D1.G.SP.B.4,Statement,4,29,,"The institution has board-approved policies commensurate with its risk and complexity that address information security. (FFIEC Information Security Booklet, page 16)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.b.5,D1.G.SP.B.5,Statement,4,30,,"The institution has policies commensurate with its risk and complexity that address the concepts of external dependency or third-party management. (FFIEC Outsourcing Booklet, page 2)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.b.6,D1.G.SP.B.6,Statement,4,31,,"The institution has policies commensurate with its risk and complexity that address the concepts of incident response and resilience. (FFIEC Information Security Booklet, page 83)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.b.7,D1.G.SP.B.7,Statement,4,32,,"All elements of the information security program are coordinated enterprise-wide. (FFIEC Information Security Booklet, page 7)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.e.1,D1.G.SP.E.1,Statement,4,33,,The institution augmented its information security strategy to incorporate cybersecurity and resilience.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.e.2,D1.G.SP.E.2,Statement,4,34,,The institution has a formal cybersecurity program that is based on technology and security industry standards or benchmarks.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.e.3,D1.G.SP.E.3,Statement,4,35,,A formal process is in place to update policies as the institution’s inherent risk profile changes.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.int.1,D1.G.SP.Int.1,Statement,4,36,,The institution has a comprehensive set of policies commensurate with its risk and complexity that address the concepts of threat intelligence.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.int.2,D1.G.SP.Int.2,Statement,4,37,,Management periodically reviews the cybersecurity strategy to address evolving cyber threats and changes to the institution’s inherent risk profile.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.int.3,D1.G.SP.Int.3,Statement,4,38,,"The cybersecurity strategy is incorporated into, or conceptually fits within, the institution’s enterprise-wide risk management strategy. "
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.int.4,D1.G.SP.Int.4,Statement,4,39,,Management links strategic cybersecurity objectives to tactical goals.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.int.5,D1.G.SP.Int.5,Statement,4,40,,A formal process is in place to cross-reference and simultaneously update all policies related to cyber risks across business lines.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.a.1,D1.G.SP.A.1,Statement,4,41,,"The cybersecurity strategy outlines the institution’s future state of
+cybersecurity with short-term and long-term perspectives."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.a.2,D1.G.SP.A.2,Statement,4,42,,Industry-recognized cybersecurity standards are used as sources during the analysis of cybersecurity program gaps.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.a.3,D1.G.SP.A.3,Statement,4,43,,The cybersecurity strategy identifies and communicates the institution’s role as a component of critical infrastructure in the financial services industry.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.a.4,D1.G.SP.A.4,Statement,4,44,,The risk appetite is informed by the institution’s role in critical infrastructure.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.a.5,D1.G.SP.A.5,Statement,4,45,,Management is continuously improving the existing cybersecurity program to adapt as the desired cybersecurity target state changes.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.sp.inn.1,D1.G.SP.Inn.1,Statement,4,46,,The cybersecurity strategy identifies and communicates the institution's role as it relates to other critical infrastructures.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.b.1,D1.G.IT.B.1,Statement,4,47,,"An inventory of organizational assets (e.g., hardware, software, data, and systems hosted externally) is maintained. (FFIEC Information Security Booklet, page 9)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.b.2,D1.G.IT.B.2,Statement,4,48,,"Organizational assets (e.g., hardware, systems, data, and applications) are prioritized for protection based on the data classification and business value. (FFIEC Information Security Booklet, page 12)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.b.3,D1.G.IT.B.3,Statement,4,49,,"Management assigns accountability for maintaining an inventory of organizational assets. (FFIEC Information Security Booklet, page 9)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.b.4,D1.G.IT.B.4,Statement,4,50,,"A change management process is in place to request and approve changes to systems configurations, hardware, software, applications, and security tools. (FFIEC Information Security Booklet, page 56)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.e.1,D1.G.IT.E.1,Statement,4,51,,"The asset inventory, including identification of critical assets, is updated at least annually to address new, relocated, re-purposed, and sunset assets."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.e.2,D1.G.IT.E.2,Statement,4,52,,The institution has a documented asset life-cycle process that considers whether assets to be acquired have appropriate security safeguards.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.e.3,D1.G.IT.E.3,Statement,4,53,,"The institution proactively manages system EOL (e.g., replacement) to limit security risks."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.e.4,D1.G.IT.E.4,Statement,4,54,,Changes are formally approved by an individual or committee with appropriate authority and with separation of duties.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.int.1,D1.G.IT.Int.1,Statement,4,55,,"Baseline configurations cannot be altered without a formal change request, documented approval, and an assessment of security implications."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.int.2,D1.G.IT.Int.2,Statement,4,56,,"A formal IT change management process requires cybersecurity risk to be evaluated during the analysis, approval, testing, and reporting of changes."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.a.1,D1.G.IT.A.1,Statement,4,57,,Supply chain risk is reviewed before the acquisition of mission-critical information systems including system components.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.a.2,D1.G.IT.A.2,Statement,4,58,,"Automated tools enable tracking, updating, asset prioritizing, and custom reporting of the asset inventory."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.a.3,D1.G.IT.A.3,Statement,4,59,,Automated processes are in place to detect and block unauthorized changes to software and hardware.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.a.4,D1.G.IT.A.4,Statement,4,60,,The change management system uses thresholds to determine when a risk assessment of the impact of the change is required.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.inn.1,D1.G.IT.Inn.1,Statement,4,61,,A formal change management function governs decentralized or highly distributed change requests and identifies and measures security risks that may cause increased exposure to cyber attack.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.it.inn.2,D1.G.IT.Inn.2,Statement,4,62,,Comprehensive automated enterprise tools are implemented to detect and block unauthorized changes to software and hardware.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.b.1,D1.RM.RMP.B.1,Statement,4,63,,"An information security and business continuity risk management function(s) exists within the institution. (FFIEC Information Security Booklet, page 68)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.e.1,D1.RM.RMP.E.1,Statement,4,64,,"The risk management program incorporates cyber risk identification, measurement, mitigation, monitoring, and reporting."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.e.2,D1.RM.RMP.E.2,Statement,4,65,,"Management reviews and uses the results of audits to improve existing cybersecurity policies, procedures, and controls."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.e.3,D1.RM.RMP.E.3,Statement,4,66,,Management monitors moderate and high residual risk issues from the cybersecurity risk assessment until items are addressed.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.int.1,D1.RM.RMP.Int.1,Statement,4,67,,The cybersecurity function has a clear reporting line that does not present a conflict of interest.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.int.2,D1.RM.RMP.Int.2,Statement,4,68,,"The risk management program specifically addresses cyber risks beyond the boundaries of the technological impacts (e.g., financial, strategic, regulatory, compliance)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.int.3,D1.RM.RMP.Int.3,Statement,4,69,,Benchmarks or target performance metrics have been established for showing improvements or regressions of the security posture over time.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.int.4,D1.RM.RMP.Int.4,Statement,4,70,,Management uses the results of independent audits and reviews to improve cybersecurity.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.int.5,D1.RM.RMP.Int.5,Statement,4,71,,"There is a process to analyze and assign potential losses and related expenses, by cost center, associated with cybersecurity incidents."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.a.1,D1.RM.RMP.A.1,Statement,4,72,,Cybersecurity metrics are used to facilitate strategic decision-making and funding in areas of need.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.a.2,D1.RM.RMP.A.2,Statement,4,73,,Independent risk management sets and monitors cyber-related risk limits for business units.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.a.3,D1.RM.RMP.A.3,Statement,4,74,,Independent risk management staff escalates to management and the board or an appropriate board committee significant discrepancies from business unit’s assessments of cyber-related risk.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.a.4,D1.RM.RMP.A.4,Statement,4,75,,A process is in place to analyze the financial impact cyber incidents have on the institution’s capital.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.a.5,D1.RM.RMP.A.5,Statement,4,76,,"The cyber risk data aggregation and real-time reporting capabilities support the institution’s ongoing reporting needs, particularly during cyber incidents."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.inn.1,D1.RM.RMP.Inn.1,Statement,4,77,,The risk management function identifies and analyzes commonalities in cyber events that occur both at the institution and across other sectors to enable more predictive risk management.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.rmp.inn.2,D1.RM.RMP.Inn.2,Statement,4,78,,A process is in place to analyze the financial impact that a cyber incident at the institution may have across the financial sector.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.b.1,D1.RM.RA.B.1,Statement,4,79,,"A risk assessment focused on safeguarding customer information identifies reasonable and foreseeable internal and external threats, the likelihood and potential damage of threats, and the sufficiency of policies, procedures, and customer information systems. (FFIEC Information Security Booklet, page 8)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.b.2,D1.RM.RA.B.2,Statement,4,80,,"The risk assessment identifies internet-based systems and high-risk transactions that warrant additional authentication controls. (FFIEC Information Security Booklet, page 12)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.b.3,D1.RM.RA.B.3,Statement,4,81,,"The risk assessment is updated to address new technologies, products, services, and connections before deployment. (FFIEC Information Security Booklet, page 13)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.e.1,D1.RM.RA.E.1,Statement,4,82,,"Risk assessments are used to identify the cybersecurity risks stemming from new products, services, or relationships."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.e.2,D1.RM.RA.E.2,Statement,4,83,,The focus of the risk assessment has expanded beyond customer information to address all information assets.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.e.3,D1.RM.RA.E.3,Statement,4,84,,The risk assessment considers the risk of using EOL software and hardware components.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.int.1,D1.RM.RA.Int.1,Statement,4,85,,The risk assessment is adjusted to consider widely known risks or risk management practices.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.a.1,D1.RM.RA.A.1,Statement,4,86,,An enterprise-wide risk management function incorporates cyber threat analysis and specific risk exposure as part of the enterprise risk assessment.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.inn.1,D1.RM.RA.Inn.1,Statement,4,87,,"The risk assessment is updated in real time as changes to the risk profile occur, new applicable standards are released or updated, and new exposures are anticipated."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.inn.2,D1.RM.RA.Inn.2,Statement,4,88,,The institution uses information from risk assessments to predict threats and drive real-time responses.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.ra.inn.3,D1.RM.RA.Inn.3,Statement,4,89,,Advanced or automated analytics offer predictive information and real- time risk metrics.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.g.rm.au.b.1,D1.G.RM.Au.B.1,Statement,4,90,,"Independent audit or review evaluates policies, procedures, and controls across the institution for significant risks and control issues associated with the institution's operations, including risks in new products, emerging technologies, and information systems. (FFIEC Audit Booklet, page 4)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.b.2,D1.RM.Au.B.2,Statement,4,91,,"The independent audit function validates controls related to the storage or transmission of confidential data. (FFIEC Audit Booklet, page 1)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.b.3,D1.RM.Au.B.3,Statement,4,92,,"Logging practices are independently reviewed periodically to ensure appropriate log management (e.g., access controls, retention, and maintenance). (FFIEC Operations Booklet, page 29)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.b.4,D1.RM.Au.B.4,Statement,4,93,,"Issues and corrective actions from internal audits and independent testing/assessments are formally tracked to ensure procedures and control lapses are resolved in a timely manner. (FFIEC Information Security Booklet, page 6)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.e.1,D1.RM.Au.E.1,Statement,4,94,,"The independent audit function validates that the risk management
+function is commensurate with the institution’s risk and complexity."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.e.2,D1.RM.Au.E.2,Statement,4,95,,The independent audit function validates that the institution’s threat information sharing is commensurate with the institution’s risk and complexity.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.e.3,D1.RM.Au.E.3,Statement,4,96,,The independent audit function validates that the institution’s cybersecurity controls function is commensurate with the institution’s risk and complexity.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.e.4,D1.RM.Au.E.4,Statement,4,97,,The independent audit function validates that the institution’s third-party relationship management is commensurate with the institution’s risk and complexity.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.e.5,D1.RM.Au.E.5,Statement,4,98,,The independent audit function validates that the institution’s incident response program and resilience are commensurate with the institution’s risk and complexity.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.int.1,D1.RM.Au.Int.1,Statement,4,99,,"A formal process is in place for the independent audit function to update
+its procedures based on changes to the institution’s inherent risk profile."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.int.2,D1.RM.Au.Int.2,Statement,4,100,,The independent audit function validates that the institution’s threat intelligence and collaboration are commensurate with the institution’s risk and complexity.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.int.3,D1.RM.Au.Int.3,Statement,4,101,,The independent audit function regularly reviews management’s cyber risk appetite statement.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.int.4,D1.RM.Au.Int.4,Statement,4,102,,Independent audits or reviews are used to identify gaps in existing security capabilities and expertise.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.a.1,D1.RM.Au.A.1,Statement,4,103,,A formal process is in place for the independent audit function to update its procedures based on changes to the evolving threat landscape across the sector.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.a.2,D1.RM.Au.A.2,Statement,4,104,,The independent audit function regularly reviews the institution’s cyber risk appetite statement in comparison to assessment results and incorporates gaps into the audit strategy.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.a.3,D1.RM.Au.A.3,Statement,4,105,,"Independent audits or reviews are used to identify cybersecurity weaknesses, root causes, and the potential impact to business units."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.inn.1,D1.RM.Au.Inn.1,Statement,4,106,,A formal process is in place for the independent audit function to update its procedures based on changes to the evolving threat landscape across other sectors the institution depends upon.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.rm.au.inn.2,D1.RM.Au.Inn.2,Statement,4,107,,The independent audit function uses sophisticated data mining tools to perform continuous monitoring of cybersecurity processes or controls.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.st.b.1,D1.R.St.B.1,Statement,4,108,,"Information security roles and responsibilities have been identified.
+(FFIEC Information Security Booklet, page 7)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.s.b.2,D1.R.S.B.2,Statement,4,109,,"Processes are in place to identify additional expertise needed to improve information security defenses. (FFIEC Information Security Work Program, Objective I: 2-8)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.s.e.1,D1.R.S.E.1,Statement,4,110,,A formal process is used to identify cybersecurity tools and expertise that may be needed.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.st.e.2,D1.R.St.E.2,Statement,4,111,,Management with appropriate knowledge and experience leads the institution's cybersecurity efforts.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.st.e.3,D1.R.St.E.3,Statement,4,112,,Staff with cybersecurity responsibilities have the requisite qualifications to perform the necessary tasks of the position.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.st.e.4,D1.R.St.E.4,Statement,4,113,,"Employment candidates, contractors, and third parties are subject to background verification proportional to the confidentiality of the data accessed, business requirements, and acceptable risk."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.s.int.1,D1.R.S.Int.1,Statement,4,114,,"The institution has a program for talent recruitment, retention, and succession planning for the cybersecurity and resilience staffs."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.s.a.1,D1.R.S.A.1,Statement,4,115,,"The institution benchmarks its cybersecurity staffing against peers to identify whether its recruitment, retention, and succession planning are commensurate."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.s.a.2,D1.R.S.A.2,Statement,4,116,,"Dedicated cybersecurity staff develops, or contributes to developing, integrated enterprise-level security and cyber defense strategies."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.r.s.inn.1,D1.R.S.Inn.1,Statement,4,117,,The institution actively partners with industry associations and academia to inform curricula based on future cybersecurity staffing needs of the industry.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.b.1,D1.TC.Tr.B.1,Statement,4,118,,"Annual information security training is provided. (FFIEC Information
+Security Booklet, page 66)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.b.2,D1.TC.Tr.B.2,Statement,4,119,,"Annual information security training includes incident response, current cyber threats (e.g., phishing, spear phishing, social engineering, and mobile security), and emerging issues. (FFIEC Information Security Booklet, page 66)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.b.3,D1.TC.Tr.B.3,Statement,4,120,,"Situational awareness materials are made available to employees when prompted by highly visible cyber events or by regulatory alerts. 
+(FFIEC Information Security Booklet, page 7)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.b.4,D1.TC.Tr.B.4,Statement,4,121,,"Customer awareness materials are readily available (e.g., DHS’ Cybersecurity Awareness Month materials). (FFIEC E-Banking Work Program, Objective 6-3)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.e.1,D1.TC.Tr.E.1,Statement,4,122,,The institution has a program for continuing cybersecurity training and skill development for cybersecurity staff.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.e.2,D1.TC.Tr.E.2,Statement,4,123,,Management is provided cybersecurity training relevant to their job responsibilities.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.e.3,D1.TC.Tr.E.3,Statement,4,124,,Employees with privileged account permissions receive additional cybersecurity training commensurate with their levels of responsibility.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.e.4,D1.TC.Tr.E.4,Statement,4,125,,Business units are provided cybersecurity training relevant to their particular business risks.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.e.5,D1.TC.Tr.E.5,Statement,4,126,,"The institution validates the effectiveness of training (e.g., social engineering or phishing tests)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.int.1,D1.TC.Tr.Int.1,Statement,4,127,,Management incorporates lessons learned from social engineering and phishing exercises to improve the employee awareness programs.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.int.2,D1.TC.Tr.Int.2,Statement,4,128,,Cybersecurity awareness information is provided to retail customers and commercial clients at least annually.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.int.3,D1.TC.Tr.Int.3,Statement,4,129,,"Business units are provided cybersecurity training relevant to their particular business risks, over and above what is required of the institution as a whole."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.int.4,D1.TC.Tr.Int.4,Statement,4,130,,The institution routinely updates its training to security staff to adapt to new threats.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.a.1,D1.TC.Tr.A.1,Statement,4,131,,"Independent directors are provided with cybersecurity training that addresses how complex products, services, and lines of business affect the institution's cyber risk."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.tr.inn.1,D1.TC.Tr.Inn.1,Statement,4,132,,Key performance indicators are used to determine whether training and awareness programs positively influence behavior.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.b.1,D1.TC.Cu.B.1,Statement,4,133,,"Management holds employees accountable for complying with the information security program. (FFIEC Information Security Booklet, page
+7)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.e.1,D1.TC.Cu.E.1,Statement,4,134,,The institution has formal standards of conduct that hold all employees accountable for complying with cybersecurity policies and procedures.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.e.2,D1.TC.Cu.E.2,Statement,4,135,,Cyber risks are actively discussed at business unit meetings. 
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.e.3,D1.TC.Cu.E.3,Statement,4,136,,Employees have a clear understanding of how to identify and escalate potential cybersecurity issues.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.int.1,D1.TC.Cu.Int.1,Statement,4,137,,Management ensures performance plans are tied to compliance with cybersecurity policies and standards in order to hold employees accountable.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.int.2,D1.TC.Cu.Int.2,Statement,4,138,,The risk culture requires formal consideration of cyber risks in all business decisions.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.int.3,D1.TC.Cu.Int.3,Statement,4,139,,Cyber risk reporting is presented and discussed at the independent risk management meetings.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.a.1,D1.TC.Cu.A.1,Statement,4,140,,Management ensures continuous improvement of cyber risk cultural awareness.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d1.tc.cu.inn.1,D1.TC.Cu.Inn.1,Statement,4,141,,The institution leads efforts to promote cybersecurity culture across the sector and to other sectors that they depend upon.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.b.1,D2.TI.Ti.B.1,Statement,4,142,,"The institution belongs or subscribes to a threat and vulnerability information sharing source(s) that provides information on threats (e.g., Financial Services Information Sharing and Analysis Center [FS-ISAC], U.S. Computer Emergency Readiness Team [US-CERT]). (FFIEC E- Banking Work Program, page 28)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.b.2,D2.TI.Ti.B.2,Statement,4,143,,"Threat information is used to monitor threats and vulnerabilities. (FFIEC Information Security Booklet, page 83)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.th.b.3,D2.TI.Th.B.3,Statement,4,144,,"Threat information is used to enhance internal risk management and controls. (FFIEC Information Security Booklet, page 4)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.e.1,D2.TI.Ti.E.1,Statement,4,145,,"Threat information received by the institution includes analysis of tactics, patterns, and risk mitigation recommendations."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.th.int.1,D2.TI.Th.Int.1,Statement,4,146,,A formal threat intelligence program is implemented and includes subscription to threat feeds from external providers and internal sources.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.int.2,D2.TI.Ti.Int.2,Statement,4,147,,Protocols are implemented for collecting information from industry peers and government.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.int.3,D2.TI.Ti.Int.3,Statement,4,148,,"A read-only, central repository of cyber threat intelligence is maintained."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.a.1,D2.TI.Ti.A.1,Statement,4,149,,A cyber intelligence model is used for gathering threat information.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.a.2,D2.TI.Ti.A.2,Statement,4,150,,Threat intelligence is automatically received from multiple sources in real time.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.a.3,D2.TI.Ti.A.3,Statement,4,151,,The institution’s threat intelligence includes information related to geopolitical events that could increase cybersecurity threat levels.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.inn.1,D2.TI.Ti.Inn.1,Statement,4,152,,A threat analysis system automatically correlates threat data to specific risks and then takes risk-based automated actions while alerting management.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ti.ti.inn.2,D2.TI.Ti.Inn.2,Statement,4,153,,"The institution is investing in the development of new threat intelligence and collaboration mechanisms (e.g., technologies, business processes) that will transform how information is gathered and shared."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.b.1,D2.MA.Ma.B.1,Statement,4,154,,"Audit log records and other security event logs are reviewed and retained in a secure manner. (FFIEC Information Security Booklet, page 79)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.b.2,D2.MA.Ma.B.2,Statement,4,155,,"Computer event logs are used for investigations once an event has occurred. (FFIEC Information Security Booklet, page 83)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.e.1,D2.MA.Ma.E.1,Statement,4,156,,A process is implemented to monitor threat information to discover emerging threats.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.e.2,D2.MA.Ma.E.2,Statement,4,157,,The threat information and analysis process is assigned to a specific group or individual.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.e.3,D2.MA.Ma.E.3,Statement,4,158,,Security processes and technology are centralized and coordinated in a Security Operations Center (SOC) or equivalent.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.e.4,D2.MA.Ma.E.4,Statement,4,159,,Monitoring systems operate continuously with adequate support for efficient incident handling.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.int.1,D2.MA.Ma.Int.1,Statement,4,160,,"A threat intelligence team is in place that evaluates threat intelligence from multiple sources for credibility, relevance, and exposure."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.int.2,D2.MA.Ma.Int.2,Statement,4,161,,"A profile is created for each threat that identifies the likely intent, capability, and target of the threat."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.int.3,D2.MA.Ma.Int.3,Statement,4,162,,Threat information sources that address all components of the threat profile are prioritized and monitored.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.int.4,D2.MA.Ma.Int.4,Statement,4,163,,Threat intelligence is analyzed to develop cyber threat summaries including risks to the institution and specific actions for the institution to consider.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.a.1,D2.MA.Ma.A.1,Statement,4,164,,A dedicated cyber threat identification and analysis committee or team exists to centralize and coordinate initiatives and communications.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.a.2,D2.MA.Ma.A.2,Statement,4,165,,Formal processes have been defined to resolve potential conflicts in information received from sharing and analysis centers or other sources.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.a.3,D2.MA.Ma.A.3,Statement,4,166,,Emerging internal and external threat intelligence and correlated log analysis are used to predict future attacks.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.a.4,D2.MA.Ma.A.4,Statement,4,167,,Threat intelligence is viewed within the context of the institution's risk profile and risk appetite to prioritize mitigating actions in anticipation of threats.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.a.5,D2.MA.Ma.A.5,Statement,4,168,,Threat intelligence is used to update architecture and configuration standards.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.inn.1,D2.MA.Ma.Inn.1,Statement,4,169,,"The institution uses multiple sources of intelligence, correlated log analysis, alerts, internal traffic flows, and geopolitical events to predict potential future attacks and attack trends."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.inn.2,D2.MA.Ma.Inn.2,Statement,4,170,,Highest risk scenarios are used to predict threats against specific business targets.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.ma.ma.inn.3,D2.MA.Ma.Inn.3,Statement,4,171,,IT systems automatically detect configuration weaknesses based on threat intelligence and alert management so actions can be prioritized.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.b.1,D2.IS.Is.B.1,Statement,4,172,,"Information security threats are gathered and shared with applicable internal employees. (FFIEC Information Security Booklet, page 83)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.b.2,D2.IS.Is.B.2,Statement,4,173,,"Contact information for law enforcement and the regulator(s) is maintained and updated regularly. (FFIEC Business Continuity Planning Work Program, Objective I: 5-1)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.b.3,D2.IS.Is.B.3,Statement,4,174,,"Information about threats is shared with law enforcement and regulators when required or prompted. (FFIEC Information Security Booklet, page 84)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.e.1,D2.IS.Is.E.1,Statement,4,175,,A formal and secure process is in place to share threat and vulnerability information with other entities.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.e.2,D2.IS.Is.E.2,Statement,4,176,,A representative from the institution participates in law enforcement or information-sharing organization meetings.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.int.1,D2.IS.Is.Int.1,Statement,4,177,,"A formal protocol is in place for sharing threat, vulnerability, and incident information to employees based on their specific job function."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.int.2,D2.IS.Is.Int.2,Statement,4,178,,Information-sharing agreements are used as needed or required to facilitate sharing threat information with other financial sector organizations or third parties.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.int.3,D2.IS.Is.Int.3,Statement,4,179,,"Information is shared proactively with the industry, law enforcement, regulators, and information-sharing forums."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.int.4,D2.IS.Is.Int.4,Statement,4,180,,A process is in place to communicate and collaborate with the public sector regarding cyber threats.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.a.1,D2.IS.Is.A.1,Statement,4,181,,Management communicates threat intelligence with business risk context and specific risk management recommendations to the business units.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.a.2,D2.IS.Is.A.2,Statement,4,182,,Relationships exist with employees of peer institutions for sharing cyber threat intelligence.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.a.3,D2.IS.Is.A.3,Statement,4,183,,A network of trust relationships (formal and/or informal) has been established to evaluate information about cyber threats.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.inn.1,D2.IS.Is.Inn.1,Statement,4,184,,A mechanism is in place for sharing cyber threat intelligence with business units in real time including the potential financial and operational impact of inaction.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.inn.2,D2.IS.Is.Inn.2,Statement,4,185,,A system automatically informs management of the level of business risk specific to the institution and the progress of recommended steps taken to mitigate the risks.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d2.is.is.inn.3,D2.IS.Is.Inn.3,Statement,4,186,,The institution is leading efforts to create new sector-wide information- sharing channels to address gaps in external-facing information-sharing mechanisms.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b.1,D3.PC.Im.B.1,Statement,4,187,,"Network perimeter defense tools (e.g., border router and firewall) are used. (FFIEC Information Security Booklet, page 33)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b.2,D3.PC.Im.B.2,Statement,4,188,,"Systems that are accessed from the Internet or by external parties are protected by firewalls or other similar devices. (FFIEC Information Security Booklet, page 46)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b.3,D3.PC.Im.B.3,Statement,4,189,,"All ports are monitored. (FFIEC Information Security Booklet, page 50)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b.4,D3.PC.Im.B.4,Statement,4,190,,"Up to date antivirus and anti-malware tools are used. (FFIEC Information Security Booklet, page 78)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b.5,D3.PC.Im.B.5,Statement,4,191,,"Systems configurations (for servers, desktops, routers, etc.) follow industry standards and are enforced. (FFIEC Information Security Booklet, page 56)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b.6,D3.PC.Im.B.6,Statement,4,192,,"Ports, functions, protocols and services are prohibited if no longer needed for business purposes. (FFIEC Information Security Booklet, page 50)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b.7,D3.PC.Im.B.7,Statement,4,193,,"Access to make changes to systems configurations (including virtual machines and hypervisors) is controlled and monitored. (FFIEC Information Security Booklet, page 56)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b.8,D3.PC.Im.B.8,Statement,4,194,,"Programs that can override system, object, network, virtual machine, and application controls are restricted. (FFIEC Information Security Booklet, page 41)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b.9,D3.PC.Im.B.9,Statement,4,195,,"System sessions are locked after a pre-defined period of inactivity and are terminated after pre-defined conditions are met. (FFIEC Information Security Booklet, page 23)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.b.10,D3.PC.Im.B.10,Statement,4,196,,"Wireless network environments require security settings with strong encryption for authentication and transmission. (*N/A if there are no wireless networks.) (FFIEC Information Security Booklet, page 40)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.e.1,D3.PC.Im.E.1,Statement,4,197,,"There is a firewall at each Internet connection and between any
+Demilitarized Zone (DMZ) and internal network(s)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.e.2,D3.PC.Im.E.2,Statement,4,198,,Antivirus and intrusion detection/prevention systems (IDS/IPS) detect and block actual and attempted attacks or intrusions.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.e.3,D3.PC.Im.E.3,Statement,4,199,,"Technical controls prevent unauthorized devices, including rogue wireless access devices and removable media, from connecting to the internal network(s)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.e.4,D3.PC.Im.E.4,Statement,4,200,,"A risk-based solution is in place at the institution or Internet hosting provider to mitigate disruptive cyber attacks (e.g., DDoS attacks)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.e.5,D3.PC.Im.E.5,Statement,4,201,,Guest wireless networks are fully segregated from the internal network(s). (*N/A if there are no wireless networks.)
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.e.6,D3.PC.Im.E.6,Statement,4,202,,Domain Name System Security Extensions (DNSSEC) is deployed across the enterprise.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.e.7,D3.PC.Im.E.7,Statement,4,203,,"Critical systems supported by legacy technologies are regularly reviewed to identify for potential vulnerabilities, upgrade opportunities, or new defense layers."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.e.8,D3.PC.Im.E.8,Statement,4,204,,Controls for unsupported systems are implemented and tested.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.int.1,D3.PC.Im.Int.1,Statement,4,205,,"The enterprise network is segmented in multiple, separate trust/security zones with defense-in-depth strategies (e.g., logical network segmentation, hard backups, air-gapping) to mitigate attacks."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.int.2,D3.PC.Im.Int.2,Statement,4,206,,"Security controls are used for remote access to all administrative consoles, including restricted virtual systems."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.int.3,D3.PC.Im.Int.3,Statement,4,207,,Wireless network environments have perimeter firewalls that are implemented and configured to restrict unauthorized traffic. (*N/A if there are no wireless networks.)
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.int.4,D3.PC.Im.Int.4,Statement,4,208,,Wireless networks use strong encryption with encryption keys that are changed frequently. (*N/A if there are no wireless networks.)
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.int.5,D3.PC.Im.Int.5,Statement,4,209,,The broadcast range of the wireless network(s) is confined to institution- controlled boundaries. (*N/A if there are no wireless networks.)
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.int.6,D3.PC.Im.Int.6,Statement,4,210,,"Technical measures are in place to prevent the execution of unauthorized code on institution owned or managed devices, network infrastructure, and systems components."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.a.1,D3.PC.Im.A.1,Statement,4,211,,Network environments and virtual instances are designed and configured to restrict and monitor traffic between trusted and untrusted zones.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.a.2,D3.PC.Im.A.2,Statement,4,212,,Only one primary function is permitted per server to prevent functions that require different security levels from co-existing on the same server.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.a.3,D3.PC.Im.A.3,Statement,4,213,,Anti-spoofing measures are in place to detect and block forged source IP addresses from entering the network.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.inn.1,D3.PC.Im.Inn.1,Statement,4,214,,"The institution risk scores all of its infrastructure assets and updates in real time based on threats, vulnerabilities, or operational changes."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.inn.2,D3.PC.Im.Inn.2,Statement,4,215,,"Automated controls are put in place based on risk scores to infrastructure assets, including automatically disconnecting affected assets."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.inn.3,D3.PC.Im.Inn.3,Statement,4,216,,The institution proactively seeks to identify control gaps that may be used as part of a zero-day attack.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.im.inn.4,D3.PC.Im.Inn.4,Statement,4,217,,"Public-facing servers are routinely rotated and restored to a known clean
+state to limit the window of time a system is exposed to potential threats."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.1,D3.PC.Am.B.1,Statement,4,218,,"Employee access is granted to systems and confidential data based on job responsibilities and the principles of least privilege. (FFIEC Information Security Booklet, page 19)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.2,D3.PC.Am.B.2,Statement,4,219,,"Employee access to systems and confidential data provides for separation of duties. (FFIEC Information Security Booklet, page 19)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.3,D3.PC.Am.B.3,Statement,4,220,,"Elevated privileges (e.g., administrator privileges) are limited and tightly controlled (e.g., assigned to individuals, not shared, and require stronger password controls). (FFIEC Information Security Booklet, page 19)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.4,D3.PC.Am.B.4,Statement,4,221,,"User access reviews are performed periodically for all systems and applications based on the risk to the application or system. (FFIEC Information Security Booklet, page 18)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.5,D3.PC.Am.B.5,Statement,4,222,,"Changes to physical and logical user access, including those that result from voluntary and involuntary terminations, are submitted to and approved by appropriate personnel. (FFIEC Information Security Booklet, page 18)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.6,D3.PC.Am.B.6,Statement,4,223,,"Identification and authentication are required and managed for access to systems, applications, and hardware. (FFIEC Information Security Booklet, page 21)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.7,D3.PC.Am.B.7,Statement,4,224,,"Access controls include password complexity and limits to password attempts and reuse. (FFIEC Information Security Booklet, page 66)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.8,D3.PC.Am.B.8,Statement,4,225,,"All default passwords and unnecessary default accounts are changed before system implementation. (FFIEC Information Security Booklet, page 61)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.9,D3.PC.Am.B.9,Statement,4,226,,"Customer access to Internet-based products or services requires authentication controls (e.g., layered controls, multifactor) that are commensurate with the risk. (FFIEC Information Security Booklet, page 21)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.10,D3.PC.Am.B.10,Statement,4,227,,"Production and non-production environments are segregated to prevent unauthorized access or changes to information assets. (*N/A if no production environment exists at the institution or the institution’s third party.) (FFIEC Information Security Booklet, page 64)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.11,D3.PC.Am.B.11,Statement,4,228,,"Physical security controls are used to prevent unauthorized access to information systems and telecommunication systems. (FFIEC Information Security Booklet, page 47)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.12,D3.PC.Am.B.12,Statement,4,229,,"All passwords are encrypted in storage and in transit. (FFIEC Information Security Booklet, page 21)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.13,D3.PC.Am.B.13,Statement,4,230,,"Confidential data are encrypted when transmitted across public or untrusted networks (e.g., Internet). (FFIEC Information Security Booklet, page 51)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.14,D3.PC.Am.B.14,Statement,4,231,,"Mobile devices (e.g., laptops, tablets, and removable media) are encrypted if used to store confidential data. (*N/A if mobile devices are not used.) (FFIEC Information Security Booklet, page 51)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.15,D3.PC.Am.B.15,Statement,4,232,,"Remote access to critical systems by employees, contractors, and third parties uses encrypted connections and multifactor authentication. (FFIEC Information Security Booklet, page 45)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.16,D3.PC.Am.B.16,Statement,4,233,,"Administrative, physical, or technical controls are in place to prevent users without administrative responsibilities from installing unauthorized software. (FFIEC Information Security Booklet, page 25)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.17,D3.PC.Am.B.17,Statement,4,234,,"Customer service (e.g., the call center) utilizes formal procedures to authenticate customers commensurate with the risk of the transaction or request. (FFIEC Information Security Booklet, page 19)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.b.18,D3.PC.Am.B.18,Statement,4,235,,"Data is disposed of or destroyed according to documented requirements and within expected time frames. (FFIEC Information Security Booklet, page 66)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.e.1,D3.PC.Am.E.1,Statement,4,236,,Changes to user access permissions trigger automated notices to appropriate personnel.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.e.2,D3.PC.Am.E.2,Statement,4,237,,"Administrators have two accounts: one for administrative use and one for general purpose, non-administrative tasks."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.e.3,D3.PC.Am.E.3,Statement,4,238,,"Use of customer data in non-production environments complies with legal, regulatory, and internal policy requirements for concealing or removing of sensitive data elements."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.e.4,D3.PC.Am.E.4,Statement,4,239,,"Physical access to high-risk or confidential systems is restricted, logged, and unauthorized access is blocked."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.e.5,D3.PC.Am.E.5,Statement,4,240,,Controls are in place to prevent unauthorized access to cryptographic keys.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.int.1,D3.PC.Am.Int.1,Statement,4,241,,The institution has implemented tools to prevent unauthorized access to or exfiltration of confidential data.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.int.2,D3.PC.Am.Int.2,Statement,4,242,,Controls are in place to prevent unauthorized escalation of user privileges.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.int.3,D3.PC.Am.Int.3,Statement,4,243,,Access controls are in place for database administrators to prevent unauthorized downloading or transmission of confidential data.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.int.4,D3.PC.Am.Int.4,Statement,4,244,,All physical and logical access is removed immediately upon notification of involuntary termination and within 24 hours of an employee’s voluntary departure.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.int.5,D3.PC.Am.Int.5,Statement,4,245,,Multifactor authentication and/or layered controls have been implemented to secure all third-party access to the institution's network and/or systems and applications.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.int.6,D3.PC.Am.Int.6,Statement,4,246,,"Multifactor authentication (e.g., tokens, digital certificates) techniques are used for employee access to high-risk systems as identified in the risk assessment(s). (*N/A if no high risk systems.)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.int.7,D3.PC.Am.Int.7,Statement,4,247,,"Confidential data are encrypted in transit across private connections (e.g., frame relay and T1) and within the institution’s trusted zones."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.int.8,D3.PC.Am.Int.8,Statement,4,248,,"Controls are in place to prevent unauthorized access to collaborative computing devices and applications (e.g., networked white boards, cameras, microphones, online applications such as instant messaging and document sharing). (* N/A if collaborative computing devices are not used.)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.a.1,D3.PC.Am.A.1,Statement,4,249,,Encryption of select data at rest is determined by the institution’s data classification and risk assessment.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.a.2,D3.PC.Am.A.2,Statement,4,250,,"Customer authentication for high-risk transactions includes methods to prevent malware and man-in-the-middle attacks (e.g., using visual transaction signing)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.inn.1,D3.PC.Am.Inn.1,Statement,4,251,,"Adaptive access controls de-provision or isolate an employee, third-party, or customer credentials to minimize potential damage if malicious behavior is suspected."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.inn.2,D3.PC.Am.Inn.2,Statement,4,252,,"Unstructured confidential data are tracked and secured through an identity-aware, cross-platform storage system that protects against internal threats, monitors user access, and tracks changes."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.inn.3,D3.PC.Am.Inn.3,Statement,4,253,,"Tokenization is used to substitute unique values for confidential information (e.g., virtual credit card)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.inn.4,D3.PC.Am.Inn.4,Statement,4,254,,"The institution is leading efforts to create new technologies and processes for managing customer, employee, and third-party authentication and access."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.am.inn.5,D3.PC.Am.Inn.5,Statement,4,255,,Real-time risk mitigation is taken based on automated risk scoring of user credentials.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.b.1,D3.PC.De.B.1,Statement,4,256,,"Controls are in place to restrict the use of removable media to authorized personnel. (FFIEC Information Security Work Program, Objective I: 4-1)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.e.1,D3.PC.De.E.1,Statement,4,257,,Tools automatically block attempted access from unpatched employee and third-party devices.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.e.2,D3.PC.De.E.2,Statement,4,258,,Tools automatically block attempted access by unregistered devices to internal networks.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.e.3,D3.PC.De.E.3,Statement,4,259,,The institution has controls to prevent the unauthorized addition of new connections.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.e.4,D3.PC.De.E.4,Statement,4,260,,Controls are in place to prevent unauthorized individuals from copying confidential data to removable media.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.e.5,D3.PC.De.E.5,Statement,4,261,,"Antivirus and anti-malware tools are deployed on end-point devices (e.g., workstations, laptops, and mobile devices)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.e.6,D3.PC.De.E.6,Statement,4,262,,Mobile devices with access to the institution’s data are centrally managed for antivirus and patch deployment. (*N/A if mobile devices are not used.)
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.e.7,D3.PC.De.E.7,Statement,4,263,,The institution wipes data remotely on mobile devices when a device is missing or stolen. (*N/A if mobile devices are not used.)
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.int.1,D3.PC.De.Int.1,Statement,4,264,,"Data loss prevention controls or devices are implemented for inbound and outbound communications (e.g., e-mail, FTP, Telnet, prevention of large file transfers)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.int.2,D3.PC.De.Int.2,Statement,4,265,,"Mobile device management includes integrity scanning (e.g., jailbreak/rooted detection). (*N/A if mobile devices are not used.)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.int.3,D3.PC.De.Int.3,Statement,4,266,,Mobile devices connecting to the corporate network for storing and accessing company information allow for remote software version/patch validation. (*N/A if mobile devices are not used.)
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.a.1,D3.PC.De.A.1,Statement,4,267,,Employees’ and third parties’ devices (including mobile) without the latest security patches are quarantined and patched before the device is granted access to the network.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.a.2,D3.PC.De.A.2,Statement,4,268,,"Confidential data and applications on mobile devices are only accessible via a secure, isolated sandbox or a secure container."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.de.inn.1,D3.PC.De.Inn.1,Statement,4,269,,"A centralized end-point management tool provides fully integrated patch, configuration, and vulnerability management, while also being able to detect malware upon arrival to prevent an exploit."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.b.1,D3.PC.Se.B.1,Statement,4,270,,"Developers working for the institution follow secure program coding practices, as part of a system development life cycle (SDLC), that meet industry standards. (FFIEC Information Security Booklet, page 56)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.b.2,D3.PC.Se.B.2,Statement,4,271,,"The security controls of internally developed software are periodically reviewed and tested. (*N/A if there is no software development.) (FFIEC Information Security Booklet, page 59)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.b.3,D3.PC.Se.B.3,Statement,4,272,,"The security controls in internally developed software code are independently reviewed before migrating the code to production. (*N/A if there is no software development.) (FFIEC Development and Acquisition Booklet, page 2)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.b.4,D3.PC.Se.B.4,Statement,4,273,,"Intellectual property and production code are held in escrow. (*N/A if there is no production code to hold in escrow.) (FFIEC Development and Acquisition Booklet, page 39)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.e.1,D3.PC.Se.E.1,Statement,4,274,,"Security testing occurs at all post-design phases of the SDLC for all applications, including mobile applications. (*N/A if there is no software development.)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.int.1,D3.PC.Se.Int.1,Statement,4,275,,Processes are in place to mitigate vulnerabilities identified as part of the secure development of systems and applications.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.int.2,D3.PC.Se.Int.2,Statement,4,276,,"The security of applications, including Web-based applications connected to the Internet, is tested against known types of cyber attacks (e.g., SQL injection, cross-site scripting, buffer overflow) before implementation or following significant changes."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.int.3,D3.PC.Se.Int.3,Statement,4,277,,Software code executables and scripts are digitally signed to confirm the software author and guarantee that the code has not been altered or corrupted.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.int.4,D3.PC.Se.Int.4,Statement,4,278,,"A risk-based, independent information assurance function evaluates the security of internal applications."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.a.1,D3.PC.Se.A.1,Statement,4,279,,Vulnerabilities identified through a static code analysis are remediated before implementing newly developed or changed applications into production.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.a.2,D3.PC.Se.A.2,Statement,4,280,,All interdependencies between applications and services have been identified.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.a.3,D3.PC.Se.A.3,Statement,4,281,,Independent code reviews are completed on internally developed or vendor-provided custom applications to ensure there are no security gaps.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.pc.se.inn.1,D3.PC.Se.Inn.1,Statement,4,282,,Software code is actively scanned by automated tools in the development environment so that security weaknesses can be resolved immediately during the design phase.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.b.1,D3.DC.Th.B.1,Statement,4,283,,"Independent testing (including penetration testing and vulnerability scanning) is conducted according to the risk assessment for external- facing systems and the internal network. (FFIEC Information Security Booklet, page 61)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.b.2,D3.DC.Th.B.2,Statement,4,284,,"Antivirus and anti-malware tools are used to detect attacks. (FFIEC Information Security Booklet, page 55)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.b.3,D3.DC.Th.B.3,Statement,4,285,,"Firewall rules are audited or verified at least quarterly. (FFIEC Information Security Booklet, page 82)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.b.4,D3.DC.Th.B.4,Statement,4,286,,"E-mail protection mechanisms are used to filter for common cyber threats (e.g., attached malware or malicious links). (FFIEC Information Security Booklet, page 39)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.e.1,D3.DC.Th.E.1,Statement,4,287,,Independent penetration testing of network boundary and critical Web- facing applications is performed routinely to identify security control gaps.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.e.2,D3.DC.Th.E.2,Statement,4,288,,Independent penetration testing is performed on Internet-facing applications or systems before they are launched or undergo significant change.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.e.3,D3.DC.Th.E.3,Statement,4,289,,Antivirus and anti-malware tools are updated automatically.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.e.4,D3.DC.Th.E.4,Statement,4,290,,Firewall rules are updated routinely.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.e.5,D3.DC.Th.E.5,Statement,4,291,,Vulnerability scanning is conducted and analyzed before deployment/redeployment of new/existing devices.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.e.6,D3.DC.Th.E.6,Statement,4,292,,Processes are in place to monitor potential insider activity that could lead to data theft or destruction.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.int.1,D3.DC.Th.Int.1,Statement,4,293,,Audit or risk management resources review the penetration testing scope and results to help determine the need for rotating companies based on the quality of the work.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.int.2,D3.DC.Th.Int.2,Statement,4,294,,E-mails and attachments are automatically scanned to detect malware and are blocked when malware is present.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.a.1,D3.DC.Th.A.1,Statement,4,295,,Weekly vulnerability scanning is rotated among environments to scan all environments throughout the year.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.a.2,D3.DC.Th.A.2,Statement,4,296,,"Penetration tests include cyber attack simulations and/or real-world tactics and techniques such as red team testing to detect control gaps in employee behavior, security defenses, policies, and resources."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.a.3,D3.DC.Th.A.3,Statement,4,297,,Automated tool(s) proactively identifies high-risk behavior signaling an employee who may pose an insider threat.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.inn.1,D3.DC.Th.Inn.1,Statement,4,298,,"User tasks and content (e.g., opening an e-mail attachment) are automatically isolated in a secure container or virtual environment so that malware can be analyzed but cannot access vital data, end-point operating systems, or applications on the institution’s network."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.th.inn.2,D3.DC.Th.Inn.2,Statement,4,299,,Vulnerability scanning is performed on a weekly basis across all environments.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.b.1,D3.DC.An.B.1,Statement,4,300,,"The institution is able to detect anomalous activities through monitoring across the environment. (FFIEC Information Security Booklet, page 32)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.b.2,D3.DC.An.B.2,Statement,4,301,,"Customer transactions generating anomalous activity alerts are monitored and reviewed. (FFIEC Wholesale Payments Booklet, page 12)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.b.3,D3.DC.An.B.3,Statement,4,302,,"Logs of physical and/or logical access are reviewed following events. (FFIEC Information Security Booklet, page 73)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.b.4,D3.DC.An.B.4,Statement,4,303,,"Access to critical systems by third parties is monitored for unauthorized or unusual activity. (FFIEC Outsourcing Booklet, page 26)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.b.5,D3.DC.An.B.5,Statement,4,304,,"Elevated privileges are monitored. (FFIEC Information Security Booklet, page 19)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.e.1,D3.DC.An.E.1,Statement,4,305,,"Systems are in place to detect anomalous behavior automatically during customer, employee, and third-party authentication."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.e.2,D3.DC.An.E.2,Statement,4,306,,Security logs are reviewed regularly.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.e.3,D3.DC.An.E.3,Statement,4,307,,Logs provide traceability for all system access by individual users. 
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.e.4,D3.DC.An.E.4,Statement,4,308,,Thresholds have been established to determine activity within logs that would warrant management response.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.int.1,D3.DC.An.Int.1,Statement,4,309,,Online customer transactions are actively monitored for anomalous behavior.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.int.2,D3.DC.An.Int.2,Statement,4,310,,Tools to detect unauthorized data mining are used.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.int.3,D3.DC.An.Int.3,Statement,4,311,,Tools actively monitor security logs for anomalous behavior and alert within established parameters.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.int.4,D3.DC.An.Int.4,Statement,4,312,,Audit logs are backed up to a centralized log server or media that is difficult to alter.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.int.5,D3.DC.An.Int.5,Statement,4,313,,Thresholds for security logging are evaluated periodically.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.int.6,D3.DC.An.Int.6,Statement,4,314,,"Anomalous activity and other network and system alerts are correlated across business units to detect and prevent multifaceted attacks (e.g., simultaneous account takeover and DDoS attack)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.a.1,D3.DC.An.A.1,Statement,4,315,,An automated tool triggers system and/or fraud alerts when customer logins occur within a short period of time but from physically distant IP locations.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.a.2,D3.DC.An.A.2,Statement,4,316,,External transfers from customer accounts generate alerts and require review and authorization if anomalous behavior is detected.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.a.3,D3.DC.An.A.3,Statement,4,317,,"A system is in place to monitor and analyze employee behavior (network use patterns, work hours, and known devices) to alert on anomalous activities."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.a.4,D3.DC.An.A.4,Statement,4,318,,An automated tool(s) is in place to detect and prevent data mining by insider threats.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.a.5,D3.DC.An.A.5,Statement,4,319,,Tags on fictitious confidential data or files are used to provide advanced alerts of potential malicious activity when the data is accessed.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.inn.1,D3.DC.An.Inn.1,Statement,4,320,,The institution has a mechanism for real-time automated risk scoring of threats.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.an.inn.2,D3.DC.An.Inn.2,Statement,4,321,,The institution is developing new technologies that will detect potential insider threats and block activity in real time.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.b.1,D3.DC.Ev.B.1,Statement,4,322,,"A normal network activity baseline is established. (FFIEC Information
+Security Booklet, page 77)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.b.2,D3.DC.Ev.B.2,Statement,4,323,,"Mechanisms (e.g., antivirus alerts, log event alerts) are in place to alert management to potential attacks. (FFIEC Information Security Booklet, page 78)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.b.3,D3.DC.Ev.B.3,Statement,4,324,,"Processes are in place to monitor for the presence of unauthorized users, devices, connections, and software. (FFIEC Information Security Work Program, Objective II: M-9)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.b.4,D3.DC.Ev.B.4,Statement,4,325,,"Responsibilities for monitoring and reporting suspicious systems activity have been assigned. (FFIEC Information Security Booklet, page 83)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.b.5,D3.DC.Ev.B.5,Statement,4,326,,"The physical environment is monitored to detect potential unauthorized access. (FFIEC Information Security Booklet, page 47)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.e.1,D3.DC.Ev.E.1,Statement,4,327,,"A process is in place to correlate event information from multiple sources
+(e.g., network, application, or firewall)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.int.1,D3.DC.Ev.Int.1,Statement,4,328,,"Controls or tools (e.g., data loss prevention) are in place to detect potential unauthorized or unintentional transmissions of confidential data."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.int.2,D3.DC.Ev.Int.2,Statement,4,329,,Event detection processes are proven reliable.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.int.3,D3.DC.Ev.Int.3,Statement,4,330,,Specialized security monitoring is used for critical assets throughout the infrastructure.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.a.1,D3.DC.Ev.A.1,Statement,4,331,,"Automated tools detect unauthorized changes to critical system files, firewalls, IPS, IDS, or other security devices."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.a.2,D3.DC.Ev.A.2,Statement,4,332,,Real-time network monitoring and detection is implemented and incorporates sector-wide event information.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.a.3,D3.DC.Ev.A.3,Statement,4,333,,"Real-time alerts are automatically sent when unauthorized software, hardware, or changes occur."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.a.4,D3.DC.Ev.A.4,Statement,4,334,,Tools are in place to actively correlate event information from multiple sources and send alerts based on established parameters.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.inn.1,D3.DC.Ev.Inn.1,Statement,4,335,,The institution is leading efforts to develop event detection systems that will correlate in real time when events are about to occur.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.dc.ev.inn.2,D3.DC.Ev.Inn.2,Statement,4,336,,The institution is leading the development effort to design new technologies that will detect potential insider threats and block activity in real time.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.b.1,D3.CC.Pa.B.1,Statement,4,337,,"A patch management program is implemented and ensures that software and firmware patches are applied in a timely manner. (FFIEC Information Security Booklet, page 62)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.b.2,D3.CC.Pa.B.2,Statement,4,338,,"Patches are tested before being applied to systems and/or software.  (FFIEC Operations Booklet, page 22)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.b.3,D3.CC.Pa.B.3,Statement,4,339,,"Patch management reports are reviewed and reflect missing security patches. (FFIEC Development and Acquisition Booklet, page 50)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.e.1,D3.CC.Pa.E.1,Statement,4,340,,"A formal process is in place to acquire, test, and deploy software patches based on criticality."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.e.2,D3.CC.Pa.E.2,Statement,4,341,,Systems are configured to retrieve patches automatically. 
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.e.3,D3.CC.Pa.E.3,Statement,4,342,,Operational impact is evaluated before deploying security patches.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.e.4,D3.CC.Pa.E.4,Statement,4,343,,An automated tool(s) is used to identify missing security patches as well as the number of days since each patch became available.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.e.5,D3.CC.Pa.E.5,Statement,4,344,,Missing patches across all environments are prioritized and tracked.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.int.1,D3.CC.Pa.Int.1,Statement,4,345,,Patches for high-risk vulnerabilities are tested and applied when released or the risk is accepted and accountability assigned.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.a.1,D3.CC.Pa.A.1,Statement,4,346,,"Patch monitoring software is installed on all servers to identify any missing patches for the operating system software, middleware, database, and other key software."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.a.2,D3.CC.Pa.A.2,Statement,4,347,,"The institution monitors patch management reports to ensure security patches are tested and implemented within aggressive time frames (e.g., 0-30 days)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.inn.1,D3.CC.Pa.Inn.1,Statement,4,348,,The institution develops security patches or bug fixes or contributes to open source code development for systems it uses.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.pa.inn.2,D3.CC.Pa.Inn.2,Statement,4,349,,Segregated or separate systems are in place that mirror production systems allowing for rapid testing and implementation of patches and provide for rapid fallback when needed.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.b.1,D3.CC.Re.B.1,Statement,4,350,,"Issues identified in assessments are prioritized and resolved based on criticality and within the time frames established in the response to the assessment report. (FFIEC Information Security Booklet, page 87)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.e.1,D3.CC.Re.E.1,Statement,4,351,,"Data is destroyed or wiped on hardware and portable/mobile media when a device is missing, stolen, or no longer needed."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.e.2,D3.CC.Re.E.2,Statement,4,352,,Formal processes are in place to resolve weaknesses identified during penetration testing.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.int.1,D3.CC.Re.Int.1,Statement,4,353,,Remediation efforts are confirmed by conducting a follow-up vulnerability scan.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.int.2,D3.CC.Re.Int.2,Statement,4,354,,"Penetration testing is repeated to confirm that medium- and high-risk, exploitable vulnerabilities have been resolved."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.int.3,D3.CC.Re.Int.3,Statement,4,355,,"Security investigations, forensic analysis, and remediation are performed by qualified staff or third parties."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.int.4,D3.CC.Re.Int.4,Statement,4,356,,"Generally accepted and appropriate forensic procedures, including chain of custody, are used to gather and present evidence to support potential legal action."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.int.5,D3.CC.Re.Int.5,Statement,4,357,,The maintenance and repair of organizational assets are performed by authorized individuals with approved and controlled tools.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.int.6,D3.CC.Re.Int.6,Statement,4,358,,The maintenance and repair of organizational assets are logged in a timely manner.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.a.1,D3.CC.Re.A.1,Statement,4,359,,"All medium and high risk issues identified in penetration testing, vulnerability scanning, and other independent testing are escalated to the board or an appropriate board committee for risk acceptance if not resolved in a timely manner."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d3.cc.re.inn.1,D3.CC.Re.Inn.1,Statement,4,360,,The institution is developing technologies that will remediate systems damaged by zero-day attacks to maintain current recovery time objectives.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.b.1,D4.C.Co.B.1,Statement,4,361,,"The critical business processes that are dependent on external connectivity have been identified. (FFIEC Information Security Booklet, page 9)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.b.2,D4.C.Co.B.2,Statement,4,362,,"The institution ensures that third-party connections are authorized. (FFIEC Information Security Booklet, page 17)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.b.3,D4.C.Co.B.3,Statement,4,363,,"A network diagram is in place and identifies all external connections. (FFIEC Information Security Booklet, page 9)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.b.4,D4.C.Co.B.4,Statement,4,364,,"Data flow diagrams are in place and document information flow to external parties. (FFIEC Information Security Booklet, page 10)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.e.1,D4.C.Co.E.1,Statement,4,365,,Critical business processes have been mapped to the supporting external connections.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.e.2,D4.C.Co.E.2,Statement,4,366,,The network diagram is updated when connections with third parties change or at least annually.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.e.3,D4.C.Co.E.3,Statement,4,367,,Network and systems diagrams are stored in a secure manner with proper restrictions on access.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.e.4,D4.C.Co.E.4,Statement,4,368,,Controls for primary and backup third-party connections are monitored and tested on a regular basis.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.int.1,D4.C.Co.Int.1,Statement,4,369,,"A validated asset inventory is used to create comprehensive diagrams depicting data repositories, data flow, infrastructure, and connectivity."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.int.2,D4.C.Co.Int.2,Statement,4,370,,Security controls are designed and verified to detect and prevent intrusions from third-party connections.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.int.3,D4.C.Co.Int.3,Statement,4,371,,"Monitoring controls cover all external connections (e.g., third-party service providers, business partners, customers)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.int.4,D4.C.Co.Int.4,Statement,4,372,,Monitoring controls cover all internal network-to-network connections.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.a.1,D4.C.Co.A.1,Statement,4,373,,The security architecture is validated and documented before network connection infrastructure changes.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.a.2,D4.C.Co.A.2,Statement,4,374,,The institution works closely with third-party service providers to maintain and improve the security of external connections.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.inn.1,D4.C.Co.Inn.1,Statement,4,375,,"Diagram(s) of external connections is interactive, shows real-time changes to the network connection infrastructure, new connections, and volume fluctuations, and alerts when risks arise."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.c.co.inn.2,D4.C.Co.Inn.2,Statement,4,376,,The institution's connections can be segmented or severed instantaneously to prevent contagion from cyber attacks.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.b.1,D4.RM.Dd.B.1,Statement,4,377,,"Risk-based due diligence is performed on prospective third parties before contracts are signed, including reviews of their background, reputation, financial condition, stability, and security controls. (FFIEC Information Security Booklet, page 69)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.b.2,D4.RM.Dd.B.2,Statement,4,378,,"A list of third-party service providers is maintained. (FFIEC Outsourcing Booklet, page 19)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.b.3,D4.RM.Dd.B.3,Statement,4,379,,"A risk assessment is conducted to identify criticality of service providers. (FFIEC Outsourcing Booklet, page 6)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.e.1,D4.RM.Dd.E.1,Statement,4,380,,A formal process exists to analyze assessments of third-party cybersecurity controls.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.e.2,D4.RM.Dd.E.2,Statement,4,381,,The board or an appropriate board committee reviews a summary of due diligence results including management’s recommendations to use third parties that will affect the institution’s inherent risk profile.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.int.1,D4.RM.Dd.Int.1,Statement,4,382,,"A process is in place to confirm that the institution’s third-party service providers conduct due diligence of their third parties (e.g., subcontractors)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.int.2,D4.RM.Dd.Int.2,Statement,4,383,,"Pre-contract, physical site visits of high-risk vendors are conducted by the institution or by a qualified third party."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.a.1,D4.RM.Dd.A.1,Statement,4,384,,A continuous process improvement program is in place for third-party due diligence activity.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.a.2,D4.RM.Dd.A.2,Statement,4,385,,Audits of high-risk vendors are conducted on an annual basis.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.inn.1,D4.RM.Dd.Inn.1,Statement,4,386,,The institution promotes sector-wide efforts to build due diligence mechanisms that lead to in-depth and efficient security and resilience reviews.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.dd.inn.2,D4.RM.Dd.Inn.2,Statement,4,387,,The institution is leading efforts to develop new auditable processes and for conducting due diligence and ongoing monitoring of cybersecurity risks posed by third parties.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.b.1,D4.RM.Co.B.1,Statement,4,388,,"Formal contracts that address relevant security and privacy requirements are in place for all third parties that process, store, or transmit confidential data or provide critical services. (FFIEC Information Security Booklet, page 7)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.b.2,D4.RM.Co.B.2,Statement,4,389,,"Contracts acknowledge that the third party is responsible for the security of the institution’s confidential data that it possesses, stores, processes, or transmits. (FFIEC Information Security Booklet, page 12)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.b.3,D4.RM.Co.B.3,Statement,4,390,,"Contracts stipulate that the third-party security controls are regularly reviewed and validated by an independent party. (FFIEC Information Security Booklet, page 12)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.b.4,D4.RM.Co.B.4,Statement,4,391,,"Contracts identify the recourse available to the institution should the third party fail to meet defined security requirements. (FFIEC Outsourcing Booklet, page 12)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.b.5,D4.RM.Co.B.5,Statement,4,392,,"Contracts establish responsibilities for responding to security incidents. (FFIEC E-Banking Booklet, page 22)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.b.6,D4.RM.Co.B.6,Statement,4,393,,"Contracts specify the security requirements for the return or destruction of data upon contract termination. (FFIEC Outsourcing Booklet, page 15)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.e.1,D4.RM.Co.E.1,Statement,4,394,,"Responsibilities for managing devices (e.g., firewalls, routers) that secure connections with third parties are formally documented in the contract."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.e.2,D4.RM.Co.E.2,Statement,4,395,,Responsibility for notification of direct and indirect security incidents and vulnerabilities is documented in contracts or service-level agreements (SLAs).
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.e.3,D4.RM.Co.E.3,Statement,4,396,,Contracts stipulate geographic limits on where data can be stored or transmitted.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.int.1,D4.RM.Co.Int.1,Statement,4,397,,Third-party SLAs or similar means are in place that require timely notification of security events.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.a.1,D4.RM.Co.A.1,Statement,4,398,,"Contracts require third-party service provider’s security policies meet or
+exceed those of the institution."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.a.2,D4.RM.Co.A.2,Statement,4,399,,A third-party termination/exit strategy has been established and validated with management.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.co.inn.1,D4.RM.Co.Inn.1,Statement,4,400,,The institution promotes a sector-wide effort to influence contractual requirements for critical third parties to the industry.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.b.1,D4.RM.Om.B.1,Statement,4,401,,"The third-party risk assessment is updated regularly. (FFIEC Outsourcing Booklet, page 3)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.b.2,D4.RM.Om.B.2,Statement,4,402,,"Audits, assessments, and operational performance reports are obtained and reviewed regularly validating security controls for critical third parties. (FFIEC Information Security Booklet, page 86)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.b.3,D4.RM.Om.B.3,Statement,4,403,,"Ongoing monitoring practices include reviewing critical third-parties’ resilience plans. (FFIEC Outsourcing Booklet, page 19)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.e.1,D4.RM.Om.E.1,Statement,4,404,,"A process to identify new third-party relationships is in place, including identifying new relationships that were established without formal approval."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.e.2,D4.RM.Om.E.2,Statement,4,405,,A formal program assigns responsibility for ongoing oversight of third- party access.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.e.3,D4.RM.Om.E.3,Statement,4,406,,"Monitoring of third parties is scaled, in terms of depth and frequency, according to the risk of the third parties."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.e.4,D4.RM.Om.E.4,Statement,4,407,,Automated reminders or ticklers are in place to identify when required third-party information needs to be obtained or analyzed.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.int.1,D4.RM.Om.Int.1,Statement,4,408,,Third-party employee access to the institution's confidential data are tracked actively based on the principles of least privilege.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.int.2,D4.RM.Om.Int.2,Statement,4,409,,Periodic on-site assessments of high-risk vendors are conducted to ensure appropriate security controls are in place.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.a.1,D4.RM.Om.A.1,Statement,4,410,,Third-party employee access to confidential data on third-party hosted systems is tracked actively via automated reports and alerts.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d4.rm.om.inn.1,D4.RM.Om.Inn.1,Statement,4,411,,The institution is leading efforts to develop new auditable processes for ongoing monitoring of cybersecurity risks posed by third parties.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.b.1,D5.IR.Pl.B.1,Statement,4,412,,"The institution has documented how it will react and respond to cyber incidents. (FFIEC Business Continuity Planning Booklet, page 4)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.b.2,D5.IR.Pl.B.2,Statement,4,413,,"Communication channels exist to provide employees a means for reporting information security events in a timely manner. (FFIEC Information Security Booklet, page 83)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.b.3,D5.IR.Pl.B.3,Statement,4,414,,"Roles and responsibilities for incident response team members are defined. (FFIEC Information Security Booklet, page 84)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.b.4,D5.IR.Pl.B.4,Statement,4,415,,"The response team includes individuals with a wide range of backgrounds and expertise, from many different areas within the institution (e.g., management, legal, public relations, as well as information technology). (FFIEC Information Security Booklet, page 84)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.b.5,D5.IR.Pl.B.5,Statement,4,416,,"A formal backup and recovery plan exists for all critical business lines. (FFIEC Business Continuity Planning Booklet, page 4)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.b.6,D5.IR.Pl.B.6,Statement,4,417,,"The institution plans to use business continuity, disaster recovery, and data backup programs to recover operations following an incident. (FFIEC Information Security Booklet, page 71)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.e.1,D5.IR.Pl.E.1,Statement,4,418,,"The remediation plan and process outlines the mitigating actions, resources, and time parameters."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.e.2,D5.IR.Pl.E.2,Statement,4,419,,"The corporate disaster recovery, business continuity, and crisis management plans have integrated consideration of cyber incidents."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.e.3,D5.IR.Pl.E.3,Statement,4,420,,Alternative processes have been established to continue critical activity within a reasonable time period.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.e.4,D5.IR.Pl.E.4,Statement,4,421,,Business impact analyses have been updated to include cybersecurity.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.e.5,D5.IR.Pl.E.5,Statement,4,422,,"Due diligence has been performed on technical sources, consultants, or forensic service firms that could be called to assist the institution during or following an incident."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.int.1,D5.IR.Pl.Int.1,Statement,4,423,,A strategy is in place to coordinate and communicate with internal and external stakeholders during or following a cyber attack.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.int.2,D5.IR.Pl.Int.2,Statement,4,424,,Plans are in place to re-route or substitute critical functions and/or services that may be affected by a successful attack on Internet-facing systems.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.int.3,D5.IR.Pl.Int.3,Statement,4,425,,A direct cooperative or contractual agreement(s) is in place with an incident response organization(s) or provider(s) to assist rapidly with mitigation efforts.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.int.4,D5.IR.Pl.Int.4,Statement,4,426,,Lessons learned from real-life cyber incidents and attacks on the institution and other organizations are used to improve the institution’s risk mitigation capabilities and response plan.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.a.1,D5.IR.Pl.A.1,Statement,4,427,,"Methods for responding to and recovering from cyber incidents are tightly woven throughout the business units’ disaster recovery, business continuity, and crisis management plans."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.a.2,D5.IR.Pl.A.2,Statement,4,428,,"Multiple systems, programs, or processes are implemented into a comprehensive cyber resilience program to sustain, minimize, and recover operations from an array of potentially disruptive and destructive cyber incidents."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.a.3,D5.IR.Pl.A.3,Statement,4,429,,A process is in place to continuously improve the resilience plan.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.inn.1,D5.IR.Pl.Inn.1,Statement,4,430,,"The incident response plan is designed to ensure recovery from disruption of services, assurance of data integrity, and recovery of lost or corrupted data following a cybersecurity incident."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.pl.inn.2,D5.IR.Pl.Inn.2,Statement,4,431,,The incident response process includes detailed actions and rule- based triggers for automated response.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.b.1,D5.IR.Te.B.1,Statement,4,432,,"Scenarios are used to improve incident detection and response.
+(FFIEC Information Security Booklet, page 71)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.b.2,D5.IR.Te.B.2,Statement,4,433,,"Business continuity testing involves collaboration with critical third parties. (FFIEC Business Continuity Planning Booklet, page J-6)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.b.3,D5.IR.Te.B.3,Statement,4,434,,"Systems, applications, and data recovery is tested at least annually.  (FFIEC Business Continuity Planning Booklet, page J-7)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.e.1,D5.IR.Te.E.1,Statement,4,435,,"Recovery scenarios include plans to recover from data destruction and impacts to data integrity, data loss, and system and data availability."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.e.2,D5.IR.Te.E.2,Statement,4,436,,Widely reported events are used to evaluate and improve the institution's response.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.e.3,D5.IR.Te.E.3,Statement,4,437,,Information backups are tested periodically to verify they are accessible and readable.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.int.1,D5.IR.Te.Int.1,Statement,4,438,,Cyber-attack scenarios are analyzed to determine potential impact to critical business processes.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.int.2,D5.IR.Te.Int.2,Statement,4,439,,"The institution participates in sector-specific cyber exercises or scenarios (e.g., FS-ISAC Cyber Attack (against) Payment Processors (CAPP))."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.int.3,D5.IR.Te.Int.3,Statement,4,440,,Resilience testing is based on analysis and identification of realistic and highly likely threats as well as new and emerging threats facing the institution.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.int.4,D5.IR.Te.Int.4,Statement,4,441,,"The critical online systems and processes are tested to withstand stresses for extended periods (e.g., DDoS)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.int.5,D5.IR.Te.Int.5,Statement,4,442,,The results of cyber event exercises are used to improve the incident response plan and automated triggers.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.a.1,D5.IR.Te.A.1,Statement,4,443,,Resilience testing is comprehensive and coordinated across all critical business functions.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.a.2,D5.IR.Te.A.2,Statement,4,444,,The institution validates that it is able to recover from cyber events similar to by known sophisticated attacks at other organizations.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.a.3,D5.IR.Te.A.3,Statement,4,445,,Incident response testing evaluates the institution from an attacker's perspective to determine how the institution or its assets at critical third parties may be targeted.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.a.4,D5.IR.Te.A.4,Statement,4,446,,The institution corrects root causes for problems discovered during cybersecurity resilience testing.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.a.5,D5.IR.Te.A.5,Statement,4,447,,Cybersecurity incident scenarios involving significant financial loss are used to stress test the institution's risk management.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.inn.1,D5.IR.Te.Inn.1,Statement,4,448,,The institution tests the ability to shift business processes or functions between different processing centers or technology systems for cyber incidents without interruption to business or loss of productivity or data.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.inn.2,D5.IR.Te.Inn.2,Statement,4,449,,The institution has validated that it is able to remediate systems damaged by zero-day attacks to maintain current recovery time objectives.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.inn.3,D5.IR.Te.Inn.3,Statement,4,450,,The institution is leading the development of more realistic test environments.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.ir.te.inn.4,D5.IR.Te.Inn.4,Statement,4,451,,Cyber incident scenarios are used to stress test potential financial losses across the sector.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.b.1,D5.DR.De.B.1,Statement,4,452,,"Alert parameters are set for detecting information security incidents that prompt mitigating actions. (FFIEC Information Security Booklet, page 43)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.b.2,D5.DR.De.B.2,Statement,4,453,,"System performance reports contain information that can be used as a risk indicator to detect information security incidents. (FFIEC Information Security Booklet, page 86)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.b.3,D5.DR.De.B.3,Statement,4,454,,"Tools and processes are in place to detect, alert, and trigger the incident response program. (FFIEC Information Security Booklet, page 84)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.e.1,D5.DR.De.E.1,Statement,4,455,,The institution has processes to detect and alert the incident response team when potential insider activity manifests that could lead to data theft or destruction.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.int.1,D5.DR.De.Int.1,Statement,4,456,,The incident response program is triggered when anomalous behaviors and attack patterns or signatures are detected.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.int.2,D5.DR.De.Int.2,Statement,4,457,,"The institution has the ability to discover infiltration, before the attacker traverses across systems, establishes a foothold, steals information, or causes damage to data and systems."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.int.3,D5.DR.De.Int.3,Statement,4,458,,Incidents are detected in real time through automated processes that include instant alerts to appropriate personnel who can respond.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.int.4,D5.DR.De.Int.4,Statement,4,459,,"Network and system alerts are correlated across business units to better detect and prevent multifaceted attacks (e.g., simultaneous DDoS attack and account takeover)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.int.5,D5.DR.De.Int.5,Statement,4,460,,Incident detection processes are capable of correlating events across the enterprise.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.a.1,D5.DR.De.A.1,Statement,4,461,,Sophisticated and adaptive technologies are deployed that can detect and alert the incident response team of specific tasks when threat indicators across the enterprise indicate potential external and internal threats.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.a.2,D5.DR.De.A.2,Statement,4,462,,Automated tools are implemented to provide specialized security monitoring based on the risk of the assets to detect and alert incident response teams in real time.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.de.inn.1,D5.DR.De.Inn.1,Statement,4,463,,The institution is able to detect and block zero-day attempts and inform management and the incident response team in real time.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.b.1,D5.DR.Re.B.1,Statement,4,464,,"Appropriate steps are taken to contain and control an incident to prevent further unauthorized access to or use of customer information. (FFIEC Information Security Booklet, page 84)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.e.1,D5.DR.Re.E.1,Statement,4,465,,"The incident response plan is designed to prioritize incidents, enabling a rapid response for significant cybersecurity incidents or vulnerabilities."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.e.2,D5.DR.Re.E.2,Statement,4,466,,A process is in place to help contain incidents and restore operations with minimal service disruption.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.e.3,D5.DR.Re.E.3,Statement,4,467,,"Containment and mitigation strategies are developed for multiple incident types (e.g., DDoS, malware)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.e.4,D5.DR.Re.E.4,Statement,4,468,,Procedures include containment strategies and notifying potentially impacted third parties.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.e.5,D5.DR.Re.E.5,Statement,4,469,,Processes are in place to trigger the incident response program when an incident occurs at a third party.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.e.6,D5.DR.Re.E.6,Statement,4,470,,Records are generated to support incident investigation and mitigation. 
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.e.7,D5.DR.Re.E.7,Statement,4,471,,"The institution calls upon third parties, as needed, to provide mitigation services"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.e.8,D5.DR.Re.E.8,Statement,4,472,,Analysis of events is used to improve the institution's security measures and policies.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.int.1,D5.DR.Re.Int.1,Statement,4,473,,Analysis of security incidents is performed in the early stages of an intrusion to minimize the impact of the incident.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.int.2,D5.DR.Re.Int.2,Statement,4,474,,Any changes to systems/applications or to access entitlements necessary for incident management are reviewed by management for formal approval before implementation.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.int.3,D5.DR.Re.Int.3,Statement,4,475,,"Processes are in place to ensure assets affected by a security incident that cannot be returned to operational status are quarantined, removed, disposed of, and/or replaced."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.int.4,D5.DR.Re.Int.4,Statement,4,476,,Processes are in place to ensure that restored assets are appropriately reconfigured and thoroughly tested before being placed back into operation.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.a.1,D5.DR.Re.A.1,Statement,4,477,,The incident management function collaborates effectively with the cyber threat intelligence function during an incident.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.a.2,D5.DR.Re.A.2,Statement,4,478,,"Links between threat intelligence, network operations, and incident response allow for proactive response to potential incidents."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.a.3,D5.DR.Re.A.3,Statement,4,479,,Technical measures apply defense-in-depth techniques such as deep- packet inspection and black holing for detection and timely response to network-based attacks associated with anomalous ingress or egress traffic patterns and/or DDoS attacks.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.inn.1,D5.DR.Re.Inn.1,Statement,4,480,,"The institution’s risk management of significant cyber incidents results in
+limited to no disruptions to critical services."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.dr.re.inn.2,D5.DR.Re.Inn.2,Statement,4,481,,"The technology infrastructure has been engineered to limit the effects of a cyber attack on the production environment from migrating to the backup environment (e.g., air-gapped environment and processes)."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.b.1,D5.ER.Es.B.1,Statement,4,482,,"A process exists to contact personnel who are responsible for analyzing and responding to an incident. (FFIEC Information Security Booklet, page 83)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.b.2,D5.ER.Es.B.2,Statement,4,483,,"Procedures exist to notify customers, regulators, and law enforcement as required or necessary when the institution becomes aware of an incident involving the unauthorized access to or use of sensitive customer information. (FFIEC Information Security Booklet, page 84)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.b.3,D5.ER.Es.B.3,Statement,4,484,,"The institution prepares an annual report of security incidents or violations for the board or an appropriate board committee. (FFIEC Information Security Booklet, page 5)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.b.4,D5.ER.Es.B.4,Statement,4,485,,"Incidents are classified, logged, and tracked. (FFIEC Operations Booklet, page 28)"
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.e.1,D5.ER.Es.E.1,Statement,4,486,,Criteria have been established for escalating cyber incidents or vulnerabilities to the board and senior management based on the potential impact and criticality of the risk.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.e.2,D5.ER.Es.E.2,Statement,4,487,,"Regulators, law enforcement, and service providers, as appropriate, are notified when the institution is aware of any unauthorized access to systems or a cyber incident occurs that could result in degradation of services."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.e.3,D5.ER.Es.E.3,Statement,4,488,,Tracked cyber incidents are correlated for trend analysis and reporting.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.int.1,D5.ER.Es.Int.1,Statement,4,489,,"Employees that are essential to mitigate the risk (e.g., fraud, business resilience) know their role in incident escalation."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.int.2,D5.ER.Es.Int.2,Statement,4,490,,"A communication plan is used to notify other organizations, including third parties, of incidents that may affect them or their customers."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.int.3,D5.ER.Es.Int.3,Statement,4,491,,An external communication plan is used for notifying media regarding incidents when applicable.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.a.1,D5.ER.Es.A.1,Statement,4,492,,The institution has established quantitative and qualitative metrics for the cybersecurity incident response process.
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.a.2,D5.ER.Es.A.2,Statement,4,493,,"Detailed metrics, dashboards, and/or scorecards outlining cyber incidents and events are provided to management and are part of the board meeting package."
+ffiec_cat_v2017.05,ffiec_cat_v2017.05:d5.er.es.inn.1,D5.ER.Es.Inn.1,Statement,4,494,,A mechanism is in place to provide instantaneous notification of incidents to management and essential employees through multiple communication channels with tracking and verification of receipt.

@@ -13588,8 +13588,8 @@
   },
   {
     "source": "ffiec_cat_v2017.05",
-    "head": "ffiec_cat_v2017.05:d1.g.rm.au.b.1",
-    "tail": "ffiec_cat_v2017.05:d1.g.rm.au.b",
+    "head": "ffiec_cat_v2017.05:d1.rm.au.b.1",
+    "tail": "ffiec_cat_v2017.05:d1.rm.au.b",
     "type_raw": null,
     "type_skos": "skos:broadMatch"
   },
@@ -13721,15 +13721,15 @@
   },
   {
     "source": "ffiec_cat_v2017.05",
-    "head": "ffiec_cat_v2017.05:d1.r.s.b.2",
-    "tail": "ffiec_cat_v2017.05:d1.r.s.b",
+    "head": "ffiec_cat_v2017.05:d1.r.st.b.2",
+    "tail": "ffiec_cat_v2017.05:d1.r.st.b",
     "type_raw": null,
     "type_skos": "skos:broadMatch"
   },
   {
     "source": "ffiec_cat_v2017.05",
-    "head": "ffiec_cat_v2017.05:d1.r.s.e.1",
-    "tail": "ffiec_cat_v2017.05:d1.r.s.e",
+    "head": "ffiec_cat_v2017.05:d1.r.st.e.1",
+    "tail": "ffiec_cat_v2017.05:d1.r.st.e",
     "type_raw": null,
     "type_skos": "skos:broadMatch"
   },
@@ -13756,29 +13756,29 @@
   },
   {
     "source": "ffiec_cat_v2017.05",
-    "head": "ffiec_cat_v2017.05:d1.r.s.int.1",
-    "tail": "ffiec_cat_v2017.05:d1.r.s.int",
+    "head": "ffiec_cat_v2017.05:d1.r.st.int.1",
+    "tail": "ffiec_cat_v2017.05:d1.r.st.int",
     "type_raw": null,
     "type_skos": "skos:broadMatch"
   },
   {
     "source": "ffiec_cat_v2017.05",
-    "head": "ffiec_cat_v2017.05:d1.r.s.a.1",
-    "tail": "ffiec_cat_v2017.05:d1.r.s.a",
+    "head": "ffiec_cat_v2017.05:d1.r.st.a.1",
+    "tail": "ffiec_cat_v2017.05:d1.r.st.a",
     "type_raw": null,
     "type_skos": "skos:broadMatch"
   },
   {
     "source": "ffiec_cat_v2017.05",
-    "head": "ffiec_cat_v2017.05:d1.r.s.a.2",
-    "tail": "ffiec_cat_v2017.05:d1.r.s.a",
+    "head": "ffiec_cat_v2017.05:d1.r.st.a.2",
+    "tail": "ffiec_cat_v2017.05:d1.r.st.a",
     "type_raw": null,
     "type_skos": "skos:broadMatch"
   },
   {
     "source": "ffiec_cat_v2017.05",
-    "head": "ffiec_cat_v2017.05:d1.r.s.inn.1",
-    "tail": "ffiec_cat_v2017.05:d1.r.s.inn",
+    "head": "ffiec_cat_v2017.05:d1.r.st.inn.1",
+    "tail": "ffiec_cat_v2017.05:d1.r.st.inn",
     "type_raw": null,
     "type_skos": "skos:broadMatch"
   },
@@ -13966,8 +13966,8 @@
   },
   {
     "source": "ffiec_cat_v2017.05",
-    "head": "ffiec_cat_v2017.05:d2.ti.th.b.3",
-    "tail": "ffiec_cat_v2017.05:d2.ti.th.b",
+    "head": "ffiec_cat_v2017.05:d2.ti.ti.b.3",
+    "tail": "ffiec_cat_v2017.05:d2.ti.ti.b",
     "type_raw": null,
     "type_skos": "skos:broadMatch"
   },
@@ -13980,8 +13980,8 @@
   },
   {
     "source": "ffiec_cat_v2017.05",
-    "head": "ffiec_cat_v2017.05:d2.ti.th.int.1",
-    "tail": "ffiec_cat_v2017.05:d2.ti.th.int",
+    "head": "ffiec_cat_v2017.05:d2.ti.ti.int.1",
+    "tail": "ffiec_cat_v2017.05:d2.ti.ti.int",
     "type_raw": null,
     "type_skos": "skos:broadMatch"
   },
@@ -14331,7 +14331,7 @@
   {
     "source": "ffiec_cat_v2017.05",
     "head": "ffiec_cat_v2017.05:d3.pc.im.b.10",
-    "tail": "ffiec_cat_v2017.05:d3.pc.im.b.",
+    "tail": "ffiec_cat_v2017.05:d3.pc.im.b",
     "type_raw": null,
     "type_skos": "skos:broadMatch"
   },

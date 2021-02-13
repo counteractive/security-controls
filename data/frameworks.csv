@@ -5,3 +5,4 @@ nist_800_53_v4,NIST 800-53,NIST Security and Privacy Controls for Federal Inform
 nist_800_171_v1,NIST 800-171,Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations,https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final,1
 owasp_10_v3,OWASP Top 10 Controls,Open Web Application Security Project (OWASP) Top Ten Proactive Controls 2018,https://owasp.org/www-project-proactive-controls,3
 asvs_v4.0.1,ASVS,OWASP Application Security Verification Standard,https://owasp.org/www-project-application-security-verification-standard,4.0.1
+fsscc_profile_v1.0,FSSCC Profile,Financial Services Sector Coordinating Council (FSSCC) Profile,https://fsscc.org/The-Profile-FAQs,1.0

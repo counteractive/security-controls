@@ -40,5 +40,12 @@
     "title": "OWASP Application Security Verification Standard",
     "url": "https://owasp.org/www-project-application-security-verification-standard",
     "version": "4.0.1"
+  },
+  {
+    "id": "fsscc_profile_v1.0",
+    "abbreviation": "FSSCC Profile",
+    "title": "Financial Services Sector Coordinating Council (FSSCC) Profile",
+    "url": "https://fsscc.org/The-Profile-FAQs",
+    "version": "1.0"
   }
 ]

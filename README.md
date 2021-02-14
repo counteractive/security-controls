@@ -34,6 +34,9 @@ ID |Framework | URL | Version |  Notes
 `800_171_v1` | Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations | [NIST 800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final) | 1 |
 `owasp_10_v3` | Open Web Application Security Project (OWASP) Top Ten Proactive Controls 2018 | [OWASP Top 10](https://owasp.org/www-project-proactive-controls/) | 3 | Distinct from [OWASP Top 10 Security Risks](https://owasp.org/www-project-top-ten/)
 `asvs_v4.0.1` | OWASP Application Security Verification Standard | [ASVS](https://owasp.org/www-project-application-security-verification-standard/) | 4.0.1 |
+`fsscc_profile_v1.0` | Financial Services Sector Coordinating Council (FSSCC) Profile | [FSSCC](https://fsscc.org/The-Profile-FAQs) | 1.0 |
+`ffiec_cat_v2017.05` | Federal Financial Institutions Examination Council (FFIEC) Cybersecurity Assessment Tool | [FFIEC](https://www.ffiec.gov/cyberassessmenttool.htm) | 2017.05 (May, 2017) | Only includes maturity domains; risk profiles are excluded as they do not fit within the framework of this project
+`aicpa_tsc_v2017` | AICPA Trust Services Criteria (SOC2 / SOC3) | [AICPA](https://www.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria.pdf) | 2017 |
 
 ### Control Format
 
@@ -168,7 +171,7 @@ The data and tools in this project can support:
 * [ ] Capture equivalence and associative mappings for 800-171 to 800-53
 * [ ] Capture equivalence and associative mappings for CIS CSC to NIST 800-53
 * [ ] Consider ways to include adversary activity taxonomies (_e.g._, [ATT&CK](https://attack.mitre.org/), [OWASP Top 10 Security Risks](https://owasp.org/www-project-top-ten/), [CAPEC](https://capec.mitre.org/))
-* [ ] Consider including additional frameworks like SOC 2, PCI/DSS, ISO 2700X, COBIT, ITIL, HIPAA/HITRUST, FedRAMP
+* [ ] Consider including additional frameworks like PCI/DSS, ISO 2700X, COBIT, ITIL, HIPAA/HITRUST, FedRAMP
 
 ## License and Notice
 

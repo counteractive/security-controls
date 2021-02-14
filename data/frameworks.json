@@ -54,5 +54,12 @@
     "title": "Federal Financial Institutions Examination Council (FFIEC) Cybersecurity Assessment Tool",
     "url": "https://www.ffiec.gov/cyberassessmenttool.htm",
     "version": "2017.05"
+  },
+  {
+    "id": "aicpa_tsc_v2017",
+    "abbreviation": "AICPA TSC (SOC)",
+    "title": "AICPA Trust Services Criteria (May 2017)",
+    "url": "https://www.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria.pdf",
+    "version": "2017"
   }
 ]

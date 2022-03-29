@@ -8225,6 +8225,622 @@
     "type_skos": "skos:broadMatch"
   },
   {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.10.1",
+    "tail": "nist_800_171_v1:3.10",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.10.2",
+    "tail": "nist_800_171_v1:3.10",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.10.3",
+    "tail": "nist_800_171_v1:3.10",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.10.4",
+    "tail": "nist_800_171_v1:3.10",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.10.5",
+    "tail": "nist_800_171_v1:3.10",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.10.6",
+    "tail": "nist_800_171_v1:3.10",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.11.1",
+    "tail": "nist_800_171_v1:3.11",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.11.2",
+    "tail": "nist_800_171_v1:3.11",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.11.3",
+    "tail": "nist_800_171_v1:3.11",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.12.1",
+    "tail": "nist_800_171_v1:3.12",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.12.2",
+    "tail": "nist_800_171_v1:3.12",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.12.3",
+    "tail": "nist_800_171_v1:3.12",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.12.4",
+    "tail": "nist_800_171_v1:3.12",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.1",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.10",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.11",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.12",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.13",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.14",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.15",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.16",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.2",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.3",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.4",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.5",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.6",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.7",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.8",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.13.9",
+    "tail": "nist_800_171_v1:3.13",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.14.1",
+    "tail": "nist_800_171_v1:3.14",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.14.2",
+    "tail": "nist_800_171_v1:3.14",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.14.3",
+    "tail": "nist_800_171_v1:3.14",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.14.4",
+    "tail": "nist_800_171_v1:3.14",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.14.5",
+    "tail": "nist_800_171_v1:3.14",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.14.6",
+    "tail": "nist_800_171_v1:3.14",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.14.7",
+    "tail": "nist_800_171_v1:3.14",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.2.1",
+    "tail": "nist_800_171_v1:3.2",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.2.2",
+    "tail": "nist_800_171_v1:3.2",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.2.3",
+    "tail": "nist_800_171_v1:3.2",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.3.1",
+    "tail": "nist_800_171_v1:3.3",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.3.2",
+    "tail": "nist_800_171_v1:3.3",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.3.3",
+    "tail": "nist_800_171_v1:3.3",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.3.4",
+    "tail": "nist_800_171_v1:3.3",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.3.5",
+    "tail": "nist_800_171_v1:3.3",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.3.6",
+    "tail": "nist_800_171_v1:3.3",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.3.7",
+    "tail": "nist_800_171_v1:3.3",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.3.8",
+    "tail": "nist_800_171_v1:3.3",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.3.9",
+    "tail": "nist_800_171_v1:3.3",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.4.1",
+    "tail": "nist_800_171_v1:3.4",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.4.2",
+    "tail": "nist_800_171_v1:3.4",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.4.3",
+    "tail": "nist_800_171_v1:3.4",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.4.4",
+    "tail": "nist_800_171_v1:3.4",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.4.5",
+    "tail": "nist_800_171_v1:3.4",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.4.6",
+    "tail": "nist_800_171_v1:3.4",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.4.7",
+    "tail": "nist_800_171_v1:3.4",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.4.8",
+    "tail": "nist_800_171_v1:3.4",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.4.9",
+    "tail": "nist_800_171_v1:3.4",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.1",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.10",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.11",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.2",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.3",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.4",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.5",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.6",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.7",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.8",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.5.9",
+    "tail": "nist_800_171_v1:3.5",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.6.1",
+    "tail": "nist_800_171_v1:3.6",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.6.2",
+    "tail": "nist_800_171_v1:3.6",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.6.3",
+    "tail": "nist_800_171_v1:3.6",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.7.1",
+    "tail": "nist_800_171_v1:3.7",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.7.2",
+    "tail": "nist_800_171_v1:3.7",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.7.3",
+    "tail": "nist_800_171_v1:3.7",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.7.4",
+    "tail": "nist_800_171_v1:3.7",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.7.5",
+    "tail": "nist_800_171_v1:3.7",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.7.6",
+    "tail": "nist_800_171_v1:3.7",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.8.1",
+    "tail": "nist_800_171_v1:3.8",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.8.2",
+    "tail": "nist_800_171_v1:3.8",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.8.3",
+    "tail": "nist_800_171_v1:3.8",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.8.4",
+    "tail": "nist_800_171_v1:3.8",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.8.5",
+    "tail": "nist_800_171_v1:3.8",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.8.6",
+    "tail": "nist_800_171_v1:3.8",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.8.7",
+    "tail": "nist_800_171_v1:3.8",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.8.8",
+    "tail": "nist_800_171_v1:3.8",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.8.9",
+    "tail": "nist_800_171_v1:3.8",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.9.1",
+    "tail": "nist_800_171_v1:3.9",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
+    "source": "nist_800_171_v1",
+    "head": "nist_800_171_v1:3.9.2",
+    "tail": "nist_800_171_v1:3.9",
+    "type_raw": null,
+    "type_skos": "skos:broadMatch"
+  },
+  {
     "source": "cis_csc_v7.1",
     "head": "cis_csc_v7.1:1",
     "tail": "nist_800_171_v1:3.1.1",

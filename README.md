@@ -37,6 +37,7 @@ ID |Framework | URL | Version |  Notes
 `fsscc_profile_v1.0` | Financial Services Sector Coordinating Council (FSSCC) Profile | [FSSCC](https://fsscc.org/The-Profile-FAQs) | 1.0 |
 `ffiec_cat_v2017.05` | Federal Financial Institutions Examination Council (FFIEC) Cybersecurity Assessment Tool | [FFIEC](https://www.ffiec.gov/cyberassessmenttool.htm) | 2017.05 (May, 2017) | Only includes maturity domains; risk profiles are excluded as they do not fit within the framework of this project
 `aicpa_tsc_v2017` | AICPA Trust Services Criteria (SOC2 / SOC3) | [AICPA](https://www.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria.pdf) | 2017 |
+`scf` | Secure Controls Framework | [SCF](https://www.securecontrolsframework.com/trust-services-criteria.pdf) | 2022.3 |
 
 ### Control Format
 

@@ -61,5 +61,12 @@
     "title": "AICPA Trust Services Criteria (May 2017)",
     "url": "https://www.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria.pdf",
     "version": "2017"
+  },
+  {
+    "id": "scf",
+    "abbreviation": "Secure Controls Framework",
+    "title": "Secure Controls Framework",
+    "url": "https://www.securecontrolsframework.com/",
+    "version": "2022.3"
   }
 ]
